@@ -184,6 +184,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\Controller.cs" />
+    <Content Include="App_Code\Data.cs" />
+    <Content Include="App_Code\SQLHelper.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
