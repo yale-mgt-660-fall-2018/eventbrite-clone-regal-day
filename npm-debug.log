@@ -26,30 +26,30 @@
 23 silly mapToRegistry uri https://registry.npmjs.org/pg-native
 24 verbose request uri https://registry.npmjs.org/pg-native
 25 verbose request no auth needed
-26 info attempt registry request try #1 at 12:42:45 PM
-27 verbose request id 247ee92770c24793
+26 info attempt registry request try #1 at 1:08:02 PM
+27 verbose request id 80dba94557dbc90f
 28 verbose etag W/"38e05bcdde596190baf9d086669eb337"
 29 verbose lastModified Sun, 27 May 2018 12:09:41 GMT
 30 http request GET https://registry.npmjs.org/pg-native
 31 http 304 https://registry.npmjs.org/pg-native
-32 verbose headers { date: 'Sat, 03 Nov 2018 16:42:43 GMT',
+32 verbose headers { date: 'Tue, 06 Nov 2018 18:08:01 GMT',
 32 verbose headers   connection: 'keep-alive',
-32 verbose headers   'set-cookie': [ '__cfduid=de4272ff829e55a30d56650fe0a4177551541263363; expires=Sun, 03-Nov-19 16:42:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-32 verbose headers   'cf-cache-status': 'REVALIDATED',
+32 verbose headers   'set-cookie': [ '__cfduid=d83f5733d5ddfbe7579d902f8d9eb7c341541527681; expires=Wed, 06-Nov-19 18:08:01 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+32 verbose headers   'cf-cache-status': 'HIT',
 32 verbose headers   'cache-control': 'max-age=300',
-32 verbose headers   'cf-ray': '47404bb49d5991d6-EWR',
+32 verbose headers   'cf-ray': '475980c739e89230-EWR',
 32 verbose headers   etag: '"38e05bcdde596190baf9d086669eb337"',
 32 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 32 verbose headers   'last-modified': 'Sun, 27 May 2018 12:09:41 GMT',
 32 verbose headers   vary: 'accept-encoding, accept',
 32 verbose headers   server: 'cloudflare' }
 33 silly get cb [ 304,
-33 silly get   { date: 'Sat, 03 Nov 2018 16:42:43 GMT',
+33 silly get   { date: 'Tue, 06 Nov 2018 18:08:01 GMT',
 33 silly get     connection: 'keep-alive',
-33 silly get     'set-cookie': [ '__cfduid=de4272ff829e55a30d56650fe0a4177551541263363; expires=Sun, 03-Nov-19 16:42:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-33 silly get     'cf-cache-status': 'REVALIDATED',
+33 silly get     'set-cookie': [ '__cfduid=d83f5733d5ddfbe7579d902f8d9eb7c341541527681; expires=Wed, 06-Nov-19 18:08:01 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+33 silly get     'cf-cache-status': 'HIT',
 33 silly get     'cache-control': 'max-age=300',
-33 silly get     'cf-ray': '47404bb49d5991d6-EWR',
+33 silly get     'cf-ray': '475980c739e89230-EWR',
 33 silly get     etag: '"38e05bcdde596190baf9d086669eb337"',
 33 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 33 silly get     'last-modified': 'Sun, 27 May 2018 12:09:41 GMT',
@@ -125,29 +125,29 @@
 60 silly mapToRegistry uri https://registry.npmjs.org/fsevents
 61 verbose request uri https://registry.npmjs.org/fsevents
 62 verbose request no auth needed
-63 info attempt registry request try #1 at 12:42:46 PM
+63 info attempt registry request try #1 at 1:08:03 PM
 64 verbose etag W/"1f6c1f25b9f645ad374c652ec54b1ad9"
 65 verbose lastModified Sun, 27 May 2018 01:18:06 GMT
 66 http request GET https://registry.npmjs.org/fsevents
 67 http 304 https://registry.npmjs.org/fsevents
-68 verbose headers { date: 'Sat, 03 Nov 2018 16:42:43 GMT',
+68 verbose headers { date: 'Tue, 06 Nov 2018 18:08:01 GMT',
 68 verbose headers   connection: 'keep-alive',
-68 verbose headers   'set-cookie': [ '__cfduid=d85e327036a62d5370b70bc6db5b3fcc01541263363; expires=Sun, 03-Nov-19 16:42:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+68 verbose headers   'set-cookie': [ '__cfduid=d21a84f521eb807516b9058017ab656eb1541527681; expires=Wed, 06-Nov-19 18:08:01 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 68 verbose headers   'cf-cache-status': 'HIT',
 68 verbose headers   'cache-control': 'max-age=300',
-68 verbose headers   'cf-ray': '47404bb85a899a10-EWR',
+68 verbose headers   'cf-ray': '475980c91aaa2180-EWR',
 68 verbose headers   etag: '"1f6c1f25b9f645ad374c652ec54b1ad9"',
 68 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 68 verbose headers   'last-modified': 'Sun, 27 May 2018 01:18:06 GMT',
 68 verbose headers   vary: 'accept-encoding, accept',
 68 verbose headers   server: 'cloudflare' }
 69 silly get cb [ 304,
-69 silly get   { date: 'Sat, 03 Nov 2018 16:42:43 GMT',
+69 silly get   { date: 'Tue, 06 Nov 2018 18:08:01 GMT',
 69 silly get     connection: 'keep-alive',
-69 silly get     'set-cookie': [ '__cfduid=d85e327036a62d5370b70bc6db5b3fcc01541263363; expires=Sun, 03-Nov-19 16:42:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+69 silly get     'set-cookie': [ '__cfduid=d21a84f521eb807516b9058017ab656eb1541527681; expires=Wed, 06-Nov-19 18:08:01 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 69 silly get     'cf-cache-status': 'HIT',
 69 silly get     'cache-control': 'max-age=300',
-69 silly get     'cf-ray': '47404bb85a899a10-EWR',
+69 silly get     'cf-ray': '475980c91aaa2180-EWR',
 69 silly get     etag: '"1f6c1f25b9f645ad374c652ec54b1ad9"',
 69 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 69 silly get     'last-modified': 'Sun, 27 May 2018 01:18:06 GMT',
@@ -178,25 +178,25 @@
 82 silly mapToRegistry using default registry
 83 silly mapToRegistry registry https://registry.npmjs.org/
 84 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
-85 verbose request uri https://registry.npmjs.org/readable-stream
+85 verbose request uri https://registry.npmjs.org/libpq
 86 verbose request no auth needed
-87 info attempt registry request try #1 at 12:42:46 PM
-88 verbose etag W/"5d7939c72a9fe5fad75bd93411833b3a"
-89 verbose lastModified Tue, 02 Oct 2018 20:43:35 GMT
-90 http request GET https://registry.npmjs.org/readable-stream
-91 verbose request uri https://registry.npmjs.org/libpq
+87 info attempt registry request try #1 at 1:08:03 PM
+88 verbose etag W/"0f20610cddf8f7280fa648559c6d7990"
+89 verbose lastModified Sun, 27 May 2018 06:42:56 GMT
+90 http request GET https://registry.npmjs.org/libpq
+91 verbose request uri https://registry.npmjs.org/readable-stream
 92 verbose request no auth needed
-93 info attempt registry request try #1 at 12:42:46 PM
-94 verbose etag W/"0f20610cddf8f7280fa648559c6d7990"
-95 verbose lastModified Sun, 27 May 2018 06:42:56 GMT
-96 http request GET https://registry.npmjs.org/libpq
+93 info attempt registry request try #1 at 1:08:03 PM
+94 verbose etag W/"5d7939c72a9fe5fad75bd93411833b3a"
+95 verbose lastModified Tue, 02 Oct 2018 20:43:35 GMT
+96 http request GET https://registry.npmjs.org/readable-stream
 97 http 304 https://registry.npmjs.org/readable-stream
-98 verbose headers { date: 'Sat, 03 Nov 2018 16:42:44 GMT',
+98 verbose headers { date: 'Tue, 06 Nov 2018 18:08:01 GMT',
 98 verbose headers   connection: 'keep-alive',
-98 verbose headers   'set-cookie': [ '__cfduid=d8200cfd80373b05fc9693a06637aba9d1541263364; expires=Sun, 03-Nov-19 16:42:44 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+98 verbose headers   'set-cookie': [ '__cfduid=dbce6d3b18bba9dc4fe1450eacb88bd851541527681; expires=Wed, 06-Nov-19 18:08:01 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 98 verbose headers   'cf-cache-status': 'HIT',
 98 verbose headers   'cache-control': 'max-age=300',
-98 verbose headers   'cf-ray': '47404bb9fd1c9a10-EWR',
+98 verbose headers   'cf-ray': '475980cb1a419224-EWR',
 98 verbose headers   etag: '"5d7939c72a9fe5fad75bd93411833b3a"',
 98 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 98 verbose headers   'last-modified': 'Tue, 02 Oct 2018 20:43:35 GMT',
@@ -204,12 +204,12 @@
 98 verbose headers   'x-amz-meta-rev': '200-05bf28546589bcaf66529dc3d7bb9e9b',
 98 verbose headers   server: 'cloudflare' }
 99 silly get cb [ 304,
-99 silly get   { date: 'Sat, 03 Nov 2018 16:42:44 GMT',
+99 silly get   { date: 'Tue, 06 Nov 2018 18:08:01 GMT',
 99 silly get     connection: 'keep-alive',
-99 silly get     'set-cookie': [ '__cfduid=d8200cfd80373b05fc9693a06637aba9d1541263364; expires=Sun, 03-Nov-19 16:42:44 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+99 silly get     'set-cookie': [ '__cfduid=dbce6d3b18bba9dc4fe1450eacb88bd851541527681; expires=Wed, 06-Nov-19 18:08:01 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 99 silly get     'cf-cache-status': 'HIT',
 99 silly get     'cache-control': 'max-age=300',
-99 silly get     'cf-ray': '47404bb9fd1c9a10-EWR',
+99 silly get     'cf-ray': '475980cb1a419224-EWR',
 99 silly get     etag: '"5d7939c72a9fe5fad75bd93411833b3a"',
 99 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 99 silly get     'last-modified': 'Tue, 02 Oct 2018 20:43:35 GMT',
@@ -238,33 +238,33 @@
 113 verbose get https://registry.npmjs.org/readable-stream not expired, no request
 114 silly cache afterAdd readable-stream@1.0.31
 115 verbose afterAdd C:\Users\wfv4\AppData\Roaming\npm-cache\readable-stream\1.0.31\package\package.json not in flight; writing
-116 http 304 https://registry.npmjs.org/libpq
-117 verbose headers { date: 'Sat, 03 Nov 2018 16:42:44 GMT',
-117 verbose headers   connection: 'keep-alive',
-117 verbose headers   'set-cookie': [ '__cfduid=dfd3941b32a7e56ca1e3ccffea5534d391541263364; expires=Sun, 03-Nov-19 16:42:44 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-117 verbose headers   'cf-cache-status': 'HIT',
-117 verbose headers   'cache-control': 'max-age=300',
-117 verbose headers   'cf-ray': '47404bba0ee091a6-EWR',
-117 verbose headers   etag: '"0f20610cddf8f7280fa648559c6d7990"',
-117 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
-117 verbose headers   'last-modified': 'Sun, 27 May 2018 06:42:56 GMT',
-117 verbose headers   vary: 'accept-encoding, accept',
-117 verbose headers   server: 'cloudflare' }
-118 silly get cb [ 304,
-118 silly get   { date: 'Sat, 03 Nov 2018 16:42:44 GMT',
-118 silly get     connection: 'keep-alive',
-118 silly get     'set-cookie': [ '__cfduid=dfd3941b32a7e56ca1e3ccffea5534d391541263364; expires=Sun, 03-Nov-19 16:42:44 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-118 silly get     'cf-cache-status': 'HIT',
-118 silly get     'cache-control': 'max-age=300',
-118 silly get     'cf-ray': '47404bba0ee091a6-EWR',
-118 silly get     etag: '"0f20610cddf8f7280fa648559c6d7990"',
-118 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
-118 silly get     'last-modified': 'Sun, 27 May 2018 06:42:56 GMT',
-118 silly get     vary: 'accept-encoding, accept',
-118 silly get     server: 'cloudflare' } ]
-119 verbose etag https://registry.npmjs.org/libpq from cache
-120 verbose get saving libpq to C:\Users\wfv4\AppData\Roaming\npm-cache\registry.npmjs.org\libpq\.cache.json
-121 verbose afterAdd C:\Users\wfv4\AppData\Roaming\npm-cache\readable-stream\1.0.31\package\package.json written
+116 verbose afterAdd C:\Users\wfv4\AppData\Roaming\npm-cache\readable-stream\1.0.31\package\package.json written
+117 http 304 https://registry.npmjs.org/libpq
+118 verbose headers { date: 'Tue, 06 Nov 2018 18:08:02 GMT',
+118 verbose headers   connection: 'keep-alive',
+118 verbose headers   'set-cookie': [ '__cfduid=dae8d312f5f87f71b686c5c715510b4eb1541527681; expires=Wed, 06-Nov-19 18:08:01 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+118 verbose headers   'cf-cache-status': 'HIT',
+118 verbose headers   'cache-control': 'max-age=300',
+118 verbose headers   'cf-ray': '475980cb29e42150-EWR',
+118 verbose headers   etag: '"0f20610cddf8f7280fa648559c6d7990"',
+118 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+118 verbose headers   'last-modified': 'Sun, 27 May 2018 06:42:56 GMT',
+118 verbose headers   vary: 'accept-encoding, accept',
+118 verbose headers   server: 'cloudflare' }
+119 silly get cb [ 304,
+119 silly get   { date: 'Tue, 06 Nov 2018 18:08:02 GMT',
+119 silly get     connection: 'keep-alive',
+119 silly get     'set-cookie': [ '__cfduid=dae8d312f5f87f71b686c5c715510b4eb1541527681; expires=Wed, 06-Nov-19 18:08:01 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+119 silly get     'cf-cache-status': 'HIT',
+119 silly get     'cache-control': 'max-age=300',
+119 silly get     'cf-ray': '475980cb29e42150-EWR',
+119 silly get     etag: '"0f20610cddf8f7280fa648559c6d7990"',
+119 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+119 silly get     'last-modified': 'Sun, 27 May 2018 06:42:56 GMT',
+119 silly get     vary: 'accept-encoding, accept',
+119 silly get     server: 'cloudflare' } ]
+120 verbose etag https://registry.npmjs.org/libpq from cache
+121 verbose get saving libpq to C:\Users\wfv4\AppData\Roaming\npm-cache\registry.npmjs.org\libpq\.cache.json
 122 silly resolveWithNewModule libpq@1.8.8 checking installable status
 123 silly cache add args [ 'libpq@^1.7.0', null ]
 124 verbose cache add spec libpq@^1.7.0
@@ -342,35 +342,35 @@
 151 silly mapToRegistry uri https://registry.npmjs.org/bindings
 152 verbose request uri https://registry.npmjs.org/nan
 153 verbose request no auth needed
-154 info attempt registry request try #1 at 12:42:46 PM
+154 info attempt registry request try #1 at 1:08:03 PM
 155 verbose etag W/"d3fbf46e08c4ad5dee07ffa0e4dac254"
 156 verbose lastModified Sat, 29 Sep 2018 08:09:58 GMT
 157 http request GET https://registry.npmjs.org/nan
 158 verbose request uri https://registry.npmjs.org/bindings
 159 verbose request no auth needed
-160 info attempt registry request try #1 at 12:42:46 PM
+160 info attempt registry request try #1 at 1:08:03 PM
 161 verbose etag W/"032d1e4fd790b7bf3a22d4035271b1a6"
 162 verbose lastModified Sat, 26 May 2018 18:26:50 GMT
 163 http request GET https://registry.npmjs.org/bindings
 164 http 304 https://registry.npmjs.org/bindings
-165 verbose headers { date: 'Sat, 03 Nov 2018 16:42:44 GMT',
+165 verbose headers { date: 'Tue, 06 Nov 2018 18:08:02 GMT',
 165 verbose headers   connection: 'keep-alive',
-165 verbose headers   'set-cookie': [ '__cfduid=d3a4ee2aaceb5bf5e557ccde82b6e95441541263364; expires=Sun, 03-Nov-19 16:42:44 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+165 verbose headers   'set-cookie': [ '__cfduid=d0d8f51286aad5eba2b4bd66a56518c371541527682; expires=Wed, 06-Nov-19 18:08:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 165 verbose headers   'cf-cache-status': 'HIT',
 165 verbose headers   'cache-control': 'max-age=300',
-165 verbose headers   'cf-ray': '47404bbb0c57927e-EWR',
+165 verbose headers   'cf-ray': '475980cdca7b214a-EWR',
 165 verbose headers   etag: '"032d1e4fd790b7bf3a22d4035271b1a6"',
 165 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 165 verbose headers   'last-modified': 'Sat, 26 May 2018 18:26:50 GMT',
 165 verbose headers   vary: 'accept-encoding, accept',
 165 verbose headers   server: 'cloudflare' }
 166 silly get cb [ 304,
-166 silly get   { date: 'Sat, 03 Nov 2018 16:42:44 GMT',
+166 silly get   { date: 'Tue, 06 Nov 2018 18:08:02 GMT',
 166 silly get     connection: 'keep-alive',
-166 silly get     'set-cookie': [ '__cfduid=d3a4ee2aaceb5bf5e557ccde82b6e95441541263364; expires=Sun, 03-Nov-19 16:42:44 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+166 silly get     'set-cookie': [ '__cfduid=d0d8f51286aad5eba2b4bd66a56518c371541527682; expires=Wed, 06-Nov-19 18:08:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 166 silly get     'cf-cache-status': 'HIT',
 166 silly get     'cache-control': 'max-age=300',
-166 silly get     'cf-ray': '47404bbb0c57927e-EWR',
+166 silly get     'cf-ray': '475980cdca7b214a-EWR',
 166 silly get     etag: '"032d1e4fd790b7bf3a22d4035271b1a6"',
 166 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 166 silly get     'last-modified': 'Sat, 26 May 2018 18:26:50 GMT',
@@ -378,153 +378,153 @@
 166 silly get     server: 'cloudflare' } ]
 167 verbose etag https://registry.npmjs.org/bindings from cache
 168 verbose get saving bindings to C:\Users\wfv4\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
-169 http 304 https://registry.npmjs.org/nan
-170 verbose headers { date: 'Sat, 03 Nov 2018 16:42:44 GMT',
-170 verbose headers   connection: 'keep-alive',
-170 verbose headers   'set-cookie': [ '__cfduid=deeb881b98a1c51badfd03001de0d62631541263364; expires=Sun, 03-Nov-19 16:42:44 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-170 verbose headers   'cf-cache-status': 'HIT',
-170 verbose headers   'cache-control': 'max-age=300',
-170 verbose headers   'cf-ray': '47404bbb198199f8-EWR',
-170 verbose headers   etag: '"d3fbf46e08c4ad5dee07ffa0e4dac254"',
-170 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
-170 verbose headers   'last-modified': 'Sat, 29 Sep 2018 08:09:58 GMT',
-170 verbose headers   vary: 'accept-encoding, accept',
-170 verbose headers   'x-amz-meta-rev': '180-441181393e8d445d77f4ad350b41dd1c',
-170 verbose headers   server: 'cloudflare' }
-171 silly get cb [ 304,
-171 silly get   { date: 'Sat, 03 Nov 2018 16:42:44 GMT',
-171 silly get     connection: 'keep-alive',
-171 silly get     'set-cookie': [ '__cfduid=deeb881b98a1c51badfd03001de0d62631541263364; expires=Sun, 03-Nov-19 16:42:44 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-171 silly get     'cf-cache-status': 'HIT',
-171 silly get     'cache-control': 'max-age=300',
-171 silly get     'cf-ray': '47404bbb198199f8-EWR',
-171 silly get     etag: '"d3fbf46e08c4ad5dee07ffa0e4dac254"',
-171 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
-171 silly get     'last-modified': 'Sat, 29 Sep 2018 08:09:58 GMT',
-171 silly get     vary: 'accept-encoding, accept',
-171 silly get     'x-amz-meta-rev': '180-441181393e8d445d77f4ad350b41dd1c',
-171 silly get     server: 'cloudflare' } ]
-172 verbose etag https://registry.npmjs.org/nan from cache
-173 verbose get saving nan to C:\Users\wfv4\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
-174 silly resolveWithNewModule bindings@1.2.1 checking installable status
-175 silly cache add args [ 'bindings@1.2.1', null ]
-176 verbose cache add spec bindings@1.2.1
-177 silly cache add parsed spec Result {
-177 silly cache add   raw: 'bindings@1.2.1',
-177 silly cache add   scope: null,
-177 silly cache add   name: 'bindings',
-177 silly cache add   rawSpec: '1.2.1',
-177 silly cache add   spec: '1.2.1',
-177 silly cache add   type: 'version' }
-178 silly addNamed bindings@1.2.1
-179 verbose addNamed "1.2.1" is a plain semver version for bindings
-180 silly mapToRegistry name bindings
-181 silly mapToRegistry using default registry
-182 silly mapToRegistry registry https://registry.npmjs.org/
-183 silly mapToRegistry uri https://registry.npmjs.org/bindings
-184 verbose addNameVersion registry:https://registry.npmjs.org/bindings not in flight; fetching
-185 silly resolveWithNewModule nan@2.11.1 checking installable status
-186 silly cache add args [ 'nan@^2.10.0', null ]
-187 verbose cache add spec nan@^2.10.0
-188 silly cache add parsed spec Result {
-188 silly cache add   raw: 'nan@^2.10.0',
-188 silly cache add   scope: null,
-188 silly cache add   name: 'nan',
-188 silly cache add   rawSpec: '^2.10.0',
-188 silly cache add   spec: '>=2.10.0-0 <3.0.0-0',
-188 silly cache add   type: 'range' }
-189 silly addNamed nan@>=2.10.0-0 <3.0.0-0
-190 verbose addNamed ">=2.10.0-0 <3.0.0-0" is a valid semver range for nan
-191 silly addNameRange { name: 'nan', range: '>=2.10.0-0 <3.0.0-0', hasData: false }
-192 silly mapToRegistry name nan
-193 silly mapToRegistry using default registry
-194 silly mapToRegistry registry https://registry.npmjs.org/
-195 silly mapToRegistry uri https://registry.npmjs.org/nan
-196 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
-197 verbose get https://registry.npmjs.org/bindings not expired, no request
-198 verbose get https://registry.npmjs.org/nan not expired, no request
-199 silly addNameRange number 2 { name: 'nan', range: '>=2.10.0-0 <3.0.0-0', hasData: true }
-200 silly addNameRange versions [ 'nan',
-200 silly addNameRange   [ '0.3.0-wip',
-200 silly addNameRange     '0.3.0-wip2',
-200 silly addNameRange     '0.3.0',
-200 silly addNameRange     '0.3.1',
-200 silly addNameRange     '0.3.2',
-200 silly addNameRange     '0.4.0',
-200 silly addNameRange     '0.4.1',
-200 silly addNameRange     '0.4.2',
-200 silly addNameRange     '0.4.3',
-200 silly addNameRange     '0.4.4',
-200 silly addNameRange     '0.5.0',
-200 silly addNameRange     '0.5.1',
-200 silly addNameRange     '0.5.2',
-200 silly addNameRange     '0.6.0',
-200 silly addNameRange     '0.7.0',
-200 silly addNameRange     '0.7.1',
-200 silly addNameRange     '0.8.0',
-200 silly addNameRange     '1.0.0',
-200 silly addNameRange     '1.1.0',
-200 silly addNameRange     '1.1.1',
-200 silly addNameRange     '1.1.2',
-200 silly addNameRange     '1.2.0',
-200 silly addNameRange     '1.3.0',
-200 silly addNameRange     '1.4.0',
-200 silly addNameRange     '1.4.1',
-200 silly addNameRange     '1.5.0',
-200 silly addNameRange     '1.4.2',
-200 silly addNameRange     '1.4.3',
-200 silly addNameRange     '1.5.1',
-200 silly addNameRange     '1.5.2',
-200 silly addNameRange     '1.6.0',
-200 silly addNameRange     '1.5.3',
-200 silly addNameRange     '1.6.1',
-200 silly addNameRange     '1.6.2',
-200 silly addNameRange     '1.7.0',
-200 silly addNameRange     '1.8.0',
-200 silly addNameRange     '1.8.1',
-200 silly addNameRange     '1.8.2',
-200 silly addNameRange     '1.8.3',
-200 silly addNameRange     '1.8.4',
-200 silly addNameRange     '1.9.0',
-200 silly addNameRange     '2.0.0',
-200 silly addNameRange     '2.0.1',
-200 silly addNameRange     '2.0.2',
-200 silly addNameRange     '2.0.3',
-200 silly addNameRange     '2.0.4',
-200 silly addNameRange     '2.0.5',
-200 silly addNameRange     '2.0.6',
-200 silly addNameRange     '2.0.7',
-200 silly addNameRange     '2.0.8',
-200 silly addNameRange     '2.0.9',
-200 silly addNameRange     '2.1.0',
-200 silly addNameRange     '2.2.0',
-200 silly addNameRange     '2.2.1',
-200 silly addNameRange     '2.3.0',
-200 silly addNameRange     '2.3.1',
-200 silly addNameRange     '2.3.2',
-200 silly addNameRange     '2.3.3',
-200 silly addNameRange     '2.3.4',
-200 silly addNameRange     '2.3.5',
-200 silly addNameRange     '2.4.0',
-200 silly addNameRange     '2.5.0',
-200 silly addNameRange     '2.5.1',
-200 silly addNameRange     '2.6.0',
-200 silly addNameRange     '2.6.1',
-200 silly addNameRange     '2.6.2',
-200 silly addNameRange     '2.7.0',
-200 silly addNameRange     '2.8.0',
-200 silly addNameRange     '2.9.1',
-200 silly addNameRange     '2.9.2',
-200 silly addNameRange     '2.10.0',
-200 silly addNameRange     '2.11.0',
-200 silly addNameRange     '2.11.1' ] ]
-201 silly addNamed nan@2.11.1
-202 verbose addNamed "2.11.1" is a plain semver version for nan
-203 silly cache afterAdd bindings@1.2.1
-204 verbose afterAdd C:\Users\wfv4\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json not in flight; writing
-205 silly cache afterAdd nan@2.11.1
-206 verbose afterAdd C:\Users\wfv4\AppData\Roaming\npm-cache\nan\2.11.1\package\package.json not in flight; writing
-207 verbose afterAdd C:\Users\wfv4\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json written
+169 silly resolveWithNewModule bindings@1.2.1 checking installable status
+170 silly cache add args [ 'bindings@1.2.1', null ]
+171 verbose cache add spec bindings@1.2.1
+172 silly cache add parsed spec Result {
+172 silly cache add   raw: 'bindings@1.2.1',
+172 silly cache add   scope: null,
+172 silly cache add   name: 'bindings',
+172 silly cache add   rawSpec: '1.2.1',
+172 silly cache add   spec: '1.2.1',
+172 silly cache add   type: 'version' }
+173 silly addNamed bindings@1.2.1
+174 verbose addNamed "1.2.1" is a plain semver version for bindings
+175 silly mapToRegistry name bindings
+176 silly mapToRegistry using default registry
+177 silly mapToRegistry registry https://registry.npmjs.org/
+178 silly mapToRegistry uri https://registry.npmjs.org/bindings
+179 verbose addNameVersion registry:https://registry.npmjs.org/bindings not in flight; fetching
+180 verbose get https://registry.npmjs.org/bindings not expired, no request
+181 silly cache afterAdd bindings@1.2.1
+182 verbose afterAdd C:\Users\wfv4\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json not in flight; writing
+183 http 304 https://registry.npmjs.org/nan
+184 verbose headers { date: 'Tue, 06 Nov 2018 18:08:02 GMT',
+184 verbose headers   connection: 'keep-alive',
+184 verbose headers   'set-cookie': [ '__cfduid=d33c11732673627b7fadc2b7f8294079b1541527682; expires=Wed, 06-Nov-19 18:08:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+184 verbose headers   'cf-cache-status': 'HIT',
+184 verbose headers   'cache-control': 'max-age=300',
+184 verbose headers   'cf-ray': '475980cdc98391e2-EWR',
+184 verbose headers   etag: '"d3fbf46e08c4ad5dee07ffa0e4dac254"',
+184 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+184 verbose headers   'last-modified': 'Sat, 29 Sep 2018 08:09:58 GMT',
+184 verbose headers   vary: 'accept-encoding, accept',
+184 verbose headers   'x-amz-meta-rev': '180-441181393e8d445d77f4ad350b41dd1c',
+184 verbose headers   server: 'cloudflare' }
+185 silly get cb [ 304,
+185 silly get   { date: 'Tue, 06 Nov 2018 18:08:02 GMT',
+185 silly get     connection: 'keep-alive',
+185 silly get     'set-cookie': [ '__cfduid=d33c11732673627b7fadc2b7f8294079b1541527682; expires=Wed, 06-Nov-19 18:08:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+185 silly get     'cf-cache-status': 'HIT',
+185 silly get     'cache-control': 'max-age=300',
+185 silly get     'cf-ray': '475980cdc98391e2-EWR',
+185 silly get     etag: '"d3fbf46e08c4ad5dee07ffa0e4dac254"',
+185 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+185 silly get     'last-modified': 'Sat, 29 Sep 2018 08:09:58 GMT',
+185 silly get     vary: 'accept-encoding, accept',
+185 silly get     'x-amz-meta-rev': '180-441181393e8d445d77f4ad350b41dd1c',
+185 silly get     server: 'cloudflare' } ]
+186 verbose etag https://registry.npmjs.org/nan from cache
+187 verbose get saving nan to C:\Users\wfv4\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+188 verbose afterAdd C:\Users\wfv4\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json written
+189 silly resolveWithNewModule nan@2.11.1 checking installable status
+190 silly cache add args [ 'nan@^2.10.0', null ]
+191 verbose cache add spec nan@^2.10.0
+192 silly cache add parsed spec Result {
+192 silly cache add   raw: 'nan@^2.10.0',
+192 silly cache add   scope: null,
+192 silly cache add   name: 'nan',
+192 silly cache add   rawSpec: '^2.10.0',
+192 silly cache add   spec: '>=2.10.0-0 <3.0.0-0',
+192 silly cache add   type: 'range' }
+193 silly addNamed nan@>=2.10.0-0 <3.0.0-0
+194 verbose addNamed ">=2.10.0-0 <3.0.0-0" is a valid semver range for nan
+195 silly addNameRange { name: 'nan', range: '>=2.10.0-0 <3.0.0-0', hasData: false }
+196 silly mapToRegistry name nan
+197 silly mapToRegistry using default registry
+198 silly mapToRegistry registry https://registry.npmjs.org/
+199 silly mapToRegistry uri https://registry.npmjs.org/nan
+200 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+201 verbose get https://registry.npmjs.org/nan not expired, no request
+202 silly addNameRange number 2 { name: 'nan', range: '>=2.10.0-0 <3.0.0-0', hasData: true }
+203 silly addNameRange versions [ 'nan',
+203 silly addNameRange   [ '0.3.0-wip',
+203 silly addNameRange     '0.3.0-wip2',
+203 silly addNameRange     '0.3.0',
+203 silly addNameRange     '0.3.1',
+203 silly addNameRange     '0.3.2',
+203 silly addNameRange     '0.4.0',
+203 silly addNameRange     '0.4.1',
+203 silly addNameRange     '0.4.2',
+203 silly addNameRange     '0.4.3',
+203 silly addNameRange     '0.4.4',
+203 silly addNameRange     '0.5.0',
+203 silly addNameRange     '0.5.1',
+203 silly addNameRange     '0.5.2',
+203 silly addNameRange     '0.6.0',
+203 silly addNameRange     '0.7.0',
+203 silly addNameRange     '0.7.1',
+203 silly addNameRange     '0.8.0',
+203 silly addNameRange     '1.0.0',
+203 silly addNameRange     '1.1.0',
+203 silly addNameRange     '1.1.1',
+203 silly addNameRange     '1.1.2',
+203 silly addNameRange     '1.2.0',
+203 silly addNameRange     '1.3.0',
+203 silly addNameRange     '1.4.0',
+203 silly addNameRange     '1.4.1',
+203 silly addNameRange     '1.5.0',
+203 silly addNameRange     '1.4.2',
+203 silly addNameRange     '1.4.3',
+203 silly addNameRange     '1.5.1',
+203 silly addNameRange     '1.5.2',
+203 silly addNameRange     '1.6.0',
+203 silly addNameRange     '1.5.3',
+203 silly addNameRange     '1.6.1',
+203 silly addNameRange     '1.6.2',
+203 silly addNameRange     '1.7.0',
+203 silly addNameRange     '1.8.0',
+203 silly addNameRange     '1.8.1',
+203 silly addNameRange     '1.8.2',
+203 silly addNameRange     '1.8.3',
+203 silly addNameRange     '1.8.4',
+203 silly addNameRange     '1.9.0',
+203 silly addNameRange     '2.0.0',
+203 silly addNameRange     '2.0.1',
+203 silly addNameRange     '2.0.2',
+203 silly addNameRange     '2.0.3',
+203 silly addNameRange     '2.0.4',
+203 silly addNameRange     '2.0.5',
+203 silly addNameRange     '2.0.6',
+203 silly addNameRange     '2.0.7',
+203 silly addNameRange     '2.0.8',
+203 silly addNameRange     '2.0.9',
+203 silly addNameRange     '2.1.0',
+203 silly addNameRange     '2.2.0',
+203 silly addNameRange     '2.2.1',
+203 silly addNameRange     '2.3.0',
+203 silly addNameRange     '2.3.1',
+203 silly addNameRange     '2.3.2',
+203 silly addNameRange     '2.3.3',
+203 silly addNameRange     '2.3.4',
+203 silly addNameRange     '2.3.5',
+203 silly addNameRange     '2.4.0',
+203 silly addNameRange     '2.5.0',
+203 silly addNameRange     '2.5.1',
+203 silly addNameRange     '2.6.0',
+203 silly addNameRange     '2.6.1',
+203 silly addNameRange     '2.6.2',
+203 silly addNameRange     '2.7.0',
+203 silly addNameRange     '2.8.0',
+203 silly addNameRange     '2.9.1',
+203 silly addNameRange     '2.9.2',
+203 silly addNameRange     '2.10.0',
+203 silly addNameRange     '2.11.0',
+203 silly addNameRange     '2.11.1' ] ]
+204 silly addNamed nan@2.11.1
+205 verbose addNamed "2.11.1" is a plain semver version for nan
+206 silly cache afterAdd nan@2.11.1
+207 verbose afterAdd C:\Users\wfv4\AppData\Roaming\npm-cache\nan\2.11.1\package\package.json not in flight; writing
 208 verbose afterAdd C:\Users\wfv4\AppData\Roaming\npm-cache\nan\2.11.1\package\package.json written
 209 silly fetchNamedPackageData string_decoder
 210 silly mapToRegistry name string_decoder
@@ -533,29 +533,29 @@
 213 silly mapToRegistry uri https://registry.npmjs.org/string_decoder
 214 verbose request uri https://registry.npmjs.org/string_decoder
 215 verbose request no auth needed
-216 info attempt registry request try #1 at 12:42:46 PM
+216 info attempt registry request try #1 at 1:08:04 PM
 217 verbose etag W/"da14c04d7ada748f7e9efa04cfb6721b"
 218 verbose lastModified Sun, 27 May 2018 18:25:37 GMT
 219 http request GET https://registry.npmjs.org/string_decoder
 220 http 304 https://registry.npmjs.org/string_decoder
-221 verbose headers { date: 'Sat, 03 Nov 2018 16:42:44 GMT',
+221 verbose headers { date: 'Tue, 06 Nov 2018 18:08:02 GMT',
 221 verbose headers   connection: 'keep-alive',
-221 verbose headers   'set-cookie': [ '__cfduid=d2fbedfa5ac163bb121421be45c4377fa1541263364; expires=Sun, 03-Nov-19 16:42:44 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+221 verbose headers   'set-cookie': [ '__cfduid=d33c11732673627b7fadc2b7f8294079b1541527682; expires=Wed, 06-Nov-19 18:08:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 221 verbose headers   'cf-cache-status': 'HIT',
 221 verbose headers   'cache-control': 'max-age=300',
-221 verbose headers   'cf-ray': '47404bbc286b99e6-EWR',
+221 verbose headers   'cf-ray': '475980ceeb5591e2-EWR',
 221 verbose headers   etag: '"da14c04d7ada748f7e9efa04cfb6721b"',
 221 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 221 verbose headers   'last-modified': 'Sun, 27 May 2018 18:25:37 GMT',
 221 verbose headers   vary: 'accept-encoding, accept',
 221 verbose headers   server: 'cloudflare' }
 222 silly get cb [ 304,
-222 silly get   { date: 'Sat, 03 Nov 2018 16:42:44 GMT',
+222 silly get   { date: 'Tue, 06 Nov 2018 18:08:02 GMT',
 222 silly get     connection: 'keep-alive',
-222 silly get     'set-cookie': [ '__cfduid=d2fbedfa5ac163bb121421be45c4377fa1541263364; expires=Sun, 03-Nov-19 16:42:44 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+222 silly get     'set-cookie': [ '__cfduid=d33c11732673627b7fadc2b7f8294079b1541527682; expires=Wed, 06-Nov-19 18:08:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 222 silly get     'cf-cache-status': 'HIT',
 222 silly get     'cache-control': 'max-age=300',
-222 silly get     'cf-ray': '47404bbc286b99e6-EWR',
+222 silly get     'cf-ray': '475980ceeb5591e2-EWR',
 222 silly get     etag: '"da14c04d7ada748f7e9efa04cfb6721b"',
 222 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 222 silly get     'last-modified': 'Sun, 27 May 2018 18:25:37 GMT',
@@ -3282,7 +3282,7 @@
 318 silly install executeActions
 319 silly doSerial global-install 0
 320 silly doParallel fetch 6
-321 verbose lock using C:\Users\wfv4\AppData\Roaming\npm-cache\_locks\staging-44f1c483c9902d9f.lock for C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging
+321 verbose lock using C:\Users\wfv4\AppData\Roaming\npm-cache\_locks\staging-970813162f79cb3d.lock for D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging
 322 silly doParallel extract 6
 323 silly extract bindings
 324 silly extract nan
@@ -3290,248 +3290,248 @@
 326 silly extract string_decoder
 327 silly extract readable-stream
 328 silly extract pg-native
-329 verbose unbuild node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d
-330 verbose unbuild node_modules\.staging\nan-a4c077d13e4165f502d5a674be108760
-331 verbose unbuild node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc
-332 verbose unbuild node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f
-333 verbose unbuild node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6
-334 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
-335 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-a4c077d13e4165f502d5a674be108760 is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
-336 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
-337 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
-338 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d
-339 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-a4c077d13e4165f502d5a674be108760
-340 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc
-341 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f
-342 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6 is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
-343 verbose unbuild node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a
-344 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
-345 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d
-346 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d is being purged
-347 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\nan\2.11.1\package.tgz
-348 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-a4c077d13e4165f502d5a674be108760
-349 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-a4c077d13e4165f502d5a674be108760 is being purged
-350 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\libpq\1.8.8\package.tgz
-351 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc
-352 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc is being purged
-353 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\string_decoder\0.10.31\package.tgz
-354 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f
-355 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f is being purged
-356 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6
-357 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d
-358 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-a4c077d13e4165f502d5a674be108760
-359 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc
-360 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f
-361 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\pg-native\3.0.0\package.tgz
-362 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6
-363 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6 is being purged
-364 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
-365 silly gunzTarPerm modes [ '777', '666' ]
+329 verbose unbuild node_modules\.staging\bindings-20476a601659b92ef23d5a20765a84e5
+330 verbose unbuild node_modules\.staging\nan-bd06e549d5ece1792a60cb585374e2d1
+331 verbose unbuild node_modules\.staging\libpq-2bff99f30eec4f4c92d2fe82269758dd
+332 verbose unbuild node_modules\.staging\readable-stream-244050f2f2d551e04964ad8c80e19b54
+333 silly gentlyRm D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-20476a601659b92ef23d5a20765a84e5 is being purged from base D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
+334 silly gentlyRm D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-bd06e549d5ece1792a60cb585374e2d1 is being purged from base D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
+335 silly gentlyRm D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-2bff99f30eec4f4c92d2fe82269758dd is being purged from base D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
+336 silly gentlyRm D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-244050f2f2d551e04964ad8c80e19b54 is being purged from base D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
+337 verbose gentlyRm don't care about contents; nuking D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-20476a601659b92ef23d5a20765a84e5
+338 verbose gentlyRm don't care about contents; nuking D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-bd06e549d5ece1792a60cb585374e2d1
+339 verbose gentlyRm don't care about contents; nuking D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-2bff99f30eec4f4c92d2fe82269758dd
+340 verbose unbuild node_modules\.staging\pg-native-18d258d33b8f363018dda8df8a459f9e
+341 verbose unbuild node_modules\.staging\string_decoder-027ffd306f466677975ccb8fb877ecc9
+342 verbose gentlyRm don't care about contents; nuking D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-244050f2f2d551e04964ad8c80e19b54
+343 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+344 verbose tar unpacking to D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-20476a601659b92ef23d5a20765a84e5
+345 silly gentlyRm D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-20476a601659b92ef23d5a20765a84e5 is being purged
+346 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\nan\2.11.1\package.tgz
+347 verbose tar unpacking to D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-bd06e549d5ece1792a60cb585374e2d1
+348 silly gentlyRm D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-bd06e549d5ece1792a60cb585374e2d1 is being purged
+349 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\libpq\1.8.8\package.tgz
+350 verbose tar unpacking to D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-2bff99f30eec4f4c92d2fe82269758dd
+351 silly gentlyRm D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-2bff99f30eec4f4c92d2fe82269758dd is being purged
+352 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\readable-stream\1.0.31\package.tgz
+353 verbose tar unpacking to D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-244050f2f2d551e04964ad8c80e19b54
+354 silly gentlyRm D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-244050f2f2d551e04964ad8c80e19b54 is being purged
+355 verbose gentlyRm don't care about contents; nuking D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-20476a601659b92ef23d5a20765a84e5
+356 verbose gentlyRm don't care about contents; nuking D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-bd06e549d5ece1792a60cb585374e2d1
+357 verbose gentlyRm don't care about contents; nuking D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-2bff99f30eec4f4c92d2fe82269758dd
+358 silly gentlyRm D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-18d258d33b8f363018dda8df8a459f9e is being purged from base D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
+359 silly gentlyRm D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-027ffd306f466677975ccb8fb877ecc9 is being purged from base D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
+360 verbose gentlyRm don't care about contents; nuking D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-244050f2f2d551e04964ad8c80e19b54
+361 silly gunzTarPerm modes [ '777', '666' ]
+362 silly gunzTarPerm modes [ '777', '666' ]
+363 silly gunzTarPerm modes [ '777', '666' ]
+364 verbose gentlyRm don't care about contents; nuking D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-18d258d33b8f363018dda8df8a459f9e
+365 verbose gentlyRm don't care about contents; nuking D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-027ffd306f466677975ccb8fb877ecc9
 366 silly gunzTarPerm modes [ '777', '666' ]
-367 silly gunzTarPerm modes [ '777', '666' ]
-368 silly gunzTarPerm modes [ '777', '666' ]
-369 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6
-370 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a
-371 silly gunzTarPerm modes [ '777', '666' ]
-372 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\readable-stream\1.0.31\package.tgz
-373 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a
-374 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a is being purged
-375 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a
+367 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\pg-native\3.0.0\package.tgz
+368 verbose tar unpacking to D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-18d258d33b8f363018dda8df8a459f9e
+369 silly gentlyRm D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-18d258d33b8f363018dda8df8a459f9e is being purged
+370 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\string_decoder\0.10.31\package.tgz
+371 verbose tar unpacking to D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-027ffd306f466677975ccb8fb877ecc9
+372 silly gentlyRm D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-027ffd306f466677975ccb8fb877ecc9 is being purged
+373 verbose gentlyRm don't care about contents; nuking D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-18d258d33b8f363018dda8df8a459f9e
+374 verbose gentlyRm don't care about contents; nuking D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-027ffd306f466677975ccb8fb877ecc9
+375 silly gunzTarPerm modes [ '777', '666' ]
 376 silly gunzTarPerm modes [ '777', '666' ]
 377 silly gunzTarPerm extractEntry package.json
 378 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
 379 silly gunzTarPerm extractEntry package.json
-380 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+380 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
 381 silly gunzTarPerm extractEntry package.json
-382 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+382 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
 383 silly gunzTarPerm extractEntry package.json
 384 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
-385 silly gunzTarPerm extractEntry package.json
-386 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
-387 silly gunzTarPerm extractEntry package.json
-388 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
-389 silly gunzTarPerm extractEntry CHANGELOG.md
-390 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
-391 silly gunzTarPerm extractEntry README.md
-392 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
-393 silly gunzTarPerm extractEntry bindings.js
-394 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
-395 silly gunzTarPerm extractEntry .travis.yml
-396 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
-397 silly gunzTarPerm extractEntry binding.gyp
-398 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 438 ]
-399 silly gunzTarPerm extractEntry include_dirs.js
-400 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
-401 silly gunzTarPerm extractEntry .npmignore
-402 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
-403 silly gunzTarPerm extractEntry README.md
-404 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
-405 silly gunzTarPerm extractEntry .eslintrc
-406 silly gunzTarPerm modified mode [ '.eslintrc', 436, 438 ]
-407 silly gunzTarPerm extractEntry .travis.yml
-408 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
-409 silly gunzTarPerm extractEntry .npmignore
-410 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
-411 silly gunzTarPerm extractEntry README.md
-412 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
-413 silly gunzTarPerm extractEntry index.js
-414 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
-415 silly gunzTarPerm extractEntry Makefile
-416 silly gunzTarPerm modified mode [ 'Makefile', 436, 438 ]
-417 silly gunzTarPerm extractEntry README.md
-418 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
-419 silly gunzTarPerm extractEntry src/addon.cc
-420 silly gunzTarPerm modified mode [ 'src/addon.cc', 436, 438 ]
-421 silly gunzTarPerm extractEntry src/addon.h
-422 silly gunzTarPerm modified mode [ 'src/addon.h', 436, 438 ]
-423 silly gunzTarPerm extractEntry src/connect-async-worker.cc
-424 silly gunzTarPerm modified mode [ 'src/connect-async-worker.cc', 436, 438 ]
-425 silly gunzTarPerm extractEntry src/connect-async-worker.h
-426 silly gunzTarPerm modified mode [ 'src/connect-async-worker.h', 436, 438 ]
-427 silly gunzTarPerm extractEntry src/connection.cc
-428 silly gunzTarPerm modified mode [ 'src/connection.cc', 436, 438 ]
-429 silly gunzTarPerm extractEntry src/connection.h
-430 silly gunzTarPerm modified mode [ 'src/connection.h', 436, 438 ]
-431 silly gunzTarPerm extractEntry test/async-connection.js
-432 silly gunzTarPerm modified mode [ 'test/async-connection.js', 436, 438 ]
-433 silly gunzTarPerm extractEntry test/async-socket.js
-434 silly gunzTarPerm modified mode [ 'test/async-socket.js', 436, 438 ]
-435 silly gunzTarPerm extractEntry test/cancel.js
-436 silly gunzTarPerm modified mode [ 'test/cancel.js', 436, 438 ]
-437 silly gunzTarPerm extractEntry test/construction.js
-438 silly gunzTarPerm modified mode [ 'test/construction.js', 436, 438 ]
-439 silly gunzTarPerm extractEntry test/copy-in.js
-440 silly gunzTarPerm modified mode [ 'test/copy-in.js', 436, 438 ]
-441 silly gunzTarPerm extractEntry test/copy-out.js
-442 silly gunzTarPerm modified mode [ 'test/copy-out.js', 436, 438 ]
-443 silly gunzTarPerm extractEntry test/error-conditions.js
-444 silly gunzTarPerm modified mode [ 'test/error-conditions.js', 436, 438 ]
-445 silly gunzTarPerm extractEntry test/error-info.js
-446 silly gunzTarPerm modified mode [ 'test/error-info.js', 436, 438 ]
-447 silly gunzTarPerm extractEntry test/escaping.js
-448 silly gunzTarPerm modified mode [ 'test/escaping.js', 436, 438 ]
-449 silly gunzTarPerm extractEntry test/helper.js
-450 silly gunzTarPerm modified mode [ 'test/helper.js', 436, 438 ]
-451 silly gunzTarPerm extractEntry test/index.js
-452 silly gunzTarPerm modified mode [ 'test/index.js', 436, 438 ]
-453 silly gunzTarPerm extractEntry test/load.js
-454 silly gunzTarPerm modified mode [ 'test/load.js', 436, 438 ]
-455 silly gunzTarPerm extractEntry test/many-connections.js
-456 silly gunzTarPerm modified mode [ 'test/many-connections.js', 436, 438 ]
-457 silly gunzTarPerm extractEntry test/mocha.opts
-458 silly gunzTarPerm modified mode [ 'test/mocha.opts', 436, 438 ]
-459 silly gunzTarPerm extractEntry test/multiple-queries.js
-460 silly gunzTarPerm modified mode [ 'test/multiple-queries.js', 436, 438 ]
-461 silly gunzTarPerm extractEntry test/non-blocking-controls.js
-462 silly gunzTarPerm modified mode [ 'test/non-blocking-controls.js', 436, 438 ]
-463 silly gunzTarPerm extractEntry test/notification.js
-464 silly gunzTarPerm modified mode [ 'test/notification.js', 436, 438 ]
-465 silly gunzTarPerm extractEntry test/result-accessors.js
-466 silly gunzTarPerm modified mode [ 'test/result-accessors.js', 436, 438 ]
-467 silly gunzTarPerm extractEntry test/server-version.js
-468 silly gunzTarPerm modified mode [ 'test/server-version.js', 436, 438 ]
-469 silly gunzTarPerm extractEntry test/socket.js
-470 silly gunzTarPerm modified mode [ 'test/socket.js', 436, 438 ]
-471 silly gunzTarPerm extractEntry test/sync-integration.js
-472 silly gunzTarPerm modified mode [ 'test/sync-integration.js', 436, 438 ]
-473 silly gunzTarPerm extractEntry test/sync-parameters.js
-474 silly gunzTarPerm modified mode [ 'test/sync-parameters.js', 436, 438 ]
-475 silly gunzTarPerm extractEntry test/sync-prepare.js
-476 silly gunzTarPerm modified mode [ 'test/sync-prepare.js', 436, 438 ]
-477 silly gunzTarPerm extractEntry test/sync.js
-478 silly gunzTarPerm modified mode [ 'test/sync.js', 436, 438 ]
-479 silly gunzTarPerm extractEntry LICENSE
-480 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
-481 silly gunzTarPerm extractEntry index.js
-482 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
-483 silly gunzTarPerm extractEntry LICENSE.md
-484 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
-485 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
-486 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
-487 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
-488 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
-489 silly gunzTarPerm extractEntry index.js
-490 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
-491 silly gunzTarPerm extractEntry Makefile
-492 silly gunzTarPerm modified mode [ 'Makefile', 436, 438 ]
-493 silly gunzTarPerm extractEntry nan_callbacks.h
-494 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
-495 silly gunzTarPerm extractEntry LICENSE
-496 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
-497 silly gunzTarPerm extractEntry transform.js
-498 silly gunzTarPerm modified mode [ 'transform.js', 420, 438 ]
-499 silly gunzTarPerm extractEntry README.md
-500 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
-501 silly gunzTarPerm extractEntry bench/index.js
-502 silly gunzTarPerm modified mode [ 'bench/index.js', 436, 438 ]
-503 silly gunzTarPerm extractEntry bench/leaks.js
-504 silly gunzTarPerm modified mode [ 'bench/leaks.js', 436, 438 ]
-505 silly gunzTarPerm extractEntry lib/build-result.js
-506 silly gunzTarPerm modified mode [ 'lib/build-result.js', 436, 438 ]
-507 silly gunzTarPerm extractEntry lib/copy-stream.js
-508 silly gunzTarPerm modified mode [ 'lib/copy-stream.js', 436, 438 ]
-509 silly gunzTarPerm extractEntry test/array-mode.js
-510 silly gunzTarPerm modified mode [ 'test/array-mode.js', 436, 438 ]
-511 silly gunzTarPerm extractEntry test/async-workflow.js
-512 silly gunzTarPerm modified mode [ 'test/async-workflow.js', 436, 438 ]
-513 silly gunzTarPerm extractEntry test/cancel.js
-514 silly gunzTarPerm modified mode [ 'test/cancel.js', 436, 438 ]
-515 silly gunzTarPerm extractEntry test/connection-errors.js
-516 silly gunzTarPerm modified mode [ 'test/connection-errors.js', 436, 438 ]
-517 silly gunzTarPerm extractEntry test/connection.js
-518 silly gunzTarPerm modified mode [ 'test/connection.js', 436, 438 ]
-519 silly gunzTarPerm extractEntry test/copy-from.js
-520 silly gunzTarPerm modified mode [ 'test/copy-from.js', 436, 438 ]
-521 silly gunzTarPerm extractEntry test/copy-to.js
-522 silly gunzTarPerm modified mode [ 'test/copy-to.js', 436, 438 ]
-523 silly gunzTarPerm extractEntry test/custom-types.js
-524 silly gunzTarPerm modified mode [ 'test/custom-types.js', 436, 438 ]
-525 silly gunzTarPerm extractEntry test/domains.js
-526 silly gunzTarPerm modified mode [ 'test/domains.js', 436, 438 ]
-527 silly gunzTarPerm extractEntry test/empty-query.js
-528 silly gunzTarPerm modified mode [ 'test/empty-query.js', 436, 438 ]
-529 silly gunzTarPerm extractEntry test/huge-query.js
-530 silly gunzTarPerm modified mode [ 'test/huge-query.js', 436, 438 ]
-531 silly gunzTarPerm extractEntry test/index.js
-532 silly gunzTarPerm modified mode [ 'test/index.js', 436, 438 ]
-533 silly gunzTarPerm extractEntry test/load.js
-534 silly gunzTarPerm modified mode [ 'test/load.js', 436, 438 ]
-535 silly gunzTarPerm extractEntry test/many-connections.js
-536 silly gunzTarPerm modified mode [ 'test/many-connections.js', 436, 438 ]
-537 silly gunzTarPerm extractEntry test/many-errors.js
-538 silly gunzTarPerm modified mode [ 'test/many-errors.js', 436, 438 ]
-539 silly gunzTarPerm extractEntry test/mocha.opts
-540 silly gunzTarPerm modified mode [ 'test/mocha.opts', 436, 438 ]
-541 silly gunzTarPerm extractEntry test/multiple-queries.js
-542 silly gunzTarPerm modified mode [ 'test/multiple-queries.js', 436, 438 ]
-543 silly gunzTarPerm extractEntry test/multiple-statement-results.js
-544 silly gunzTarPerm modified mode [ 'test/multiple-statement-results.js', 436, 438 ]
-545 silly gunzTarPerm extractEntry test/notify.js
-546 silly gunzTarPerm modified mode [ 'test/notify.js', 436, 438 ]
-547 silly gunzTarPerm extractEntry test/prepare.js
-548 silly gunzTarPerm modified mode [ 'test/prepare.js', 436, 438 ]
-549 silly gunzTarPerm extractEntry test/query-async.js
-550 silly gunzTarPerm modified mode [ 'test/query-async.js', 436, 438 ]
-551 silly gunzTarPerm extractEntry test/query-sync.js
-552 silly gunzTarPerm modified mode [ 'test/query-sync.js', 436, 438 ]
-553 silly gunzTarPerm extractEntry test/version.js
-554 silly gunzTarPerm modified mode [ 'test/version.js', 436, 438 ]
-555 silly gunzTarPerm extractEntry nan_converters_43_inl.h
-556 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
-557 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
-558 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
-559 silly gunzTarPerm extractEntry duplex.js
-560 silly gunzTarPerm modified mode [ 'duplex.js', 420, 438 ]
-561 silly gunzTarPerm extractEntry readable.js
-562 silly gunzTarPerm modified mode [ 'readable.js', 436, 438 ]
-563 silly gunzTarPerm extractEntry nan_converters.h
-564 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
-565 silly gunzTarPerm extractEntry nan_define_own_property_helper.h
-566 silly gunzTarPerm modified mode [ 'nan_define_own_property_helper.h', 436, 438 ]
-567 silly gunzTarPerm extractEntry passthrough.js
-568 silly gunzTarPerm modified mode [ 'passthrough.js', 420, 438 ]
-569 silly gunzTarPerm extractEntry writable.js
-570 silly gunzTarPerm modified mode [ 'writable.js', 420, 438 ]
+385 silly gunzTarPerm extractEntry CHANGELOG.md
+386 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+387 silly gunzTarPerm extractEntry .travis.yml
+388 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+389 silly gunzTarPerm extractEntry binding.gyp
+390 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 438 ]
+391 silly gunzTarPerm extractEntry include_dirs.js
+392 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+393 silly gunzTarPerm extractEntry package.json
+394 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+395 silly gunzTarPerm extractEntry package.json
+396 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+397 silly gunzTarPerm extractEntry .npmignore
+398 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+399 silly gunzTarPerm extractEntry README.md
+400 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+401 silly gunzTarPerm extractEntry README.md
+402 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+403 silly gunzTarPerm extractEntry bindings.js
+404 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+405 silly gunzTarPerm extractEntry .npmignore
+406 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+407 silly gunzTarPerm extractEntry README.md
+408 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+409 silly gunzTarPerm extractEntry .eslintrc
+410 silly gunzTarPerm modified mode [ '.eslintrc', 436, 438 ]
+411 silly gunzTarPerm extractEntry .travis.yml
+412 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+413 silly gunzTarPerm extractEntry LICENSE
+414 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+415 silly gunzTarPerm extractEntry transform.js
+416 silly gunzTarPerm modified mode [ 'transform.js', 420, 438 ]
+417 silly gunzTarPerm extractEntry LICENSE.md
+418 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+419 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+420 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+421 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+422 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+423 silly gunzTarPerm extractEntry index.js
+424 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+425 silly gunzTarPerm extractEntry Makefile
+426 silly gunzTarPerm modified mode [ 'Makefile', 436, 438 ]
+427 silly gunzTarPerm extractEntry README.md
+428 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+429 silly gunzTarPerm extractEntry src/addon.cc
+430 silly gunzTarPerm modified mode [ 'src/addon.cc', 436, 438 ]
+431 silly gunzTarPerm extractEntry src/addon.h
+432 silly gunzTarPerm modified mode [ 'src/addon.h', 436, 438 ]
+433 silly gunzTarPerm extractEntry src/connect-async-worker.cc
+434 silly gunzTarPerm modified mode [ 'src/connect-async-worker.cc', 436, 438 ]
+435 silly gunzTarPerm extractEntry src/connect-async-worker.h
+436 silly gunzTarPerm modified mode [ 'src/connect-async-worker.h', 436, 438 ]
+437 silly gunzTarPerm extractEntry src/connection.cc
+438 silly gunzTarPerm modified mode [ 'src/connection.cc', 436, 438 ]
+439 silly gunzTarPerm extractEntry src/connection.h
+440 silly gunzTarPerm modified mode [ 'src/connection.h', 436, 438 ]
+441 silly gunzTarPerm extractEntry test/async-connection.js
+442 silly gunzTarPerm modified mode [ 'test/async-connection.js', 436, 438 ]
+443 silly gunzTarPerm extractEntry test/async-socket.js
+444 silly gunzTarPerm modified mode [ 'test/async-socket.js', 436, 438 ]
+445 silly gunzTarPerm extractEntry test/cancel.js
+446 silly gunzTarPerm modified mode [ 'test/cancel.js', 436, 438 ]
+447 silly gunzTarPerm extractEntry test/construction.js
+448 silly gunzTarPerm modified mode [ 'test/construction.js', 436, 438 ]
+449 silly gunzTarPerm extractEntry test/copy-in.js
+450 silly gunzTarPerm modified mode [ 'test/copy-in.js', 436, 438 ]
+451 silly gunzTarPerm extractEntry test/copy-out.js
+452 silly gunzTarPerm modified mode [ 'test/copy-out.js', 436, 438 ]
+453 silly gunzTarPerm extractEntry test/error-conditions.js
+454 silly gunzTarPerm modified mode [ 'test/error-conditions.js', 436, 438 ]
+455 silly gunzTarPerm extractEntry test/error-info.js
+456 silly gunzTarPerm modified mode [ 'test/error-info.js', 436, 438 ]
+457 silly gunzTarPerm extractEntry test/escaping.js
+458 silly gunzTarPerm modified mode [ 'test/escaping.js', 436, 438 ]
+459 silly gunzTarPerm extractEntry test/helper.js
+460 silly gunzTarPerm modified mode [ 'test/helper.js', 436, 438 ]
+461 silly gunzTarPerm extractEntry test/index.js
+462 silly gunzTarPerm modified mode [ 'test/index.js', 436, 438 ]
+463 silly gunzTarPerm extractEntry test/load.js
+464 silly gunzTarPerm modified mode [ 'test/load.js', 436, 438 ]
+465 silly gunzTarPerm extractEntry test/many-connections.js
+466 silly gunzTarPerm modified mode [ 'test/many-connections.js', 436, 438 ]
+467 silly gunzTarPerm extractEntry test/mocha.opts
+468 silly gunzTarPerm modified mode [ 'test/mocha.opts', 436, 438 ]
+469 silly gunzTarPerm extractEntry test/multiple-queries.js
+470 silly gunzTarPerm modified mode [ 'test/multiple-queries.js', 436, 438 ]
+471 silly gunzTarPerm extractEntry test/non-blocking-controls.js
+472 silly gunzTarPerm modified mode [ 'test/non-blocking-controls.js', 436, 438 ]
+473 silly gunzTarPerm extractEntry test/notification.js
+474 silly gunzTarPerm modified mode [ 'test/notification.js', 436, 438 ]
+475 silly gunzTarPerm extractEntry test/result-accessors.js
+476 silly gunzTarPerm modified mode [ 'test/result-accessors.js', 436, 438 ]
+477 silly gunzTarPerm extractEntry test/server-version.js
+478 silly gunzTarPerm modified mode [ 'test/server-version.js', 436, 438 ]
+479 silly gunzTarPerm extractEntry test/socket.js
+480 silly gunzTarPerm modified mode [ 'test/socket.js', 436, 438 ]
+481 silly gunzTarPerm extractEntry test/sync-integration.js
+482 silly gunzTarPerm modified mode [ 'test/sync-integration.js', 436, 438 ]
+483 silly gunzTarPerm extractEntry test/sync-parameters.js
+484 silly gunzTarPerm modified mode [ 'test/sync-parameters.js', 436, 438 ]
+485 silly gunzTarPerm extractEntry test/sync-prepare.js
+486 silly gunzTarPerm modified mode [ 'test/sync-prepare.js', 436, 438 ]
+487 silly gunzTarPerm extractEntry test/sync.js
+488 silly gunzTarPerm modified mode [ 'test/sync.js', 436, 438 ]
+489 silly gunzTarPerm extractEntry nan_callbacks.h
+490 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+491 silly gunzTarPerm extractEntry LICENSE
+492 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+493 silly gunzTarPerm extractEntry index.js
+494 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+495 silly gunzTarPerm extractEntry index.js
+496 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+497 silly gunzTarPerm extractEntry Makefile
+498 silly gunzTarPerm modified mode [ 'Makefile', 436, 438 ]
+499 silly gunzTarPerm extractEntry duplex.js
+500 silly gunzTarPerm modified mode [ 'duplex.js', 420, 438 ]
+501 silly gunzTarPerm extractEntry readable.js
+502 silly gunzTarPerm modified mode [ 'readable.js', 436, 438 ]
+503 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+504 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+505 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+506 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+507 silly gunzTarPerm extractEntry README.md
+508 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+509 silly gunzTarPerm extractEntry bench/index.js
+510 silly gunzTarPerm modified mode [ 'bench/index.js', 436, 438 ]
+511 silly gunzTarPerm extractEntry bench/leaks.js
+512 silly gunzTarPerm modified mode [ 'bench/leaks.js', 436, 438 ]
+513 silly gunzTarPerm extractEntry lib/build-result.js
+514 silly gunzTarPerm modified mode [ 'lib/build-result.js', 436, 438 ]
+515 silly gunzTarPerm extractEntry lib/copy-stream.js
+516 silly gunzTarPerm modified mode [ 'lib/copy-stream.js', 436, 438 ]
+517 silly gunzTarPerm extractEntry test/array-mode.js
+518 silly gunzTarPerm modified mode [ 'test/array-mode.js', 436, 438 ]
+519 silly gunzTarPerm extractEntry test/async-workflow.js
+520 silly gunzTarPerm modified mode [ 'test/async-workflow.js', 436, 438 ]
+521 silly gunzTarPerm extractEntry test/cancel.js
+522 silly gunzTarPerm modified mode [ 'test/cancel.js', 436, 438 ]
+523 silly gunzTarPerm extractEntry test/connection-errors.js
+524 silly gunzTarPerm modified mode [ 'test/connection-errors.js', 436, 438 ]
+525 silly gunzTarPerm extractEntry test/connection.js
+526 silly gunzTarPerm modified mode [ 'test/connection.js', 436, 438 ]
+527 silly gunzTarPerm extractEntry test/copy-from.js
+528 silly gunzTarPerm modified mode [ 'test/copy-from.js', 436, 438 ]
+529 silly gunzTarPerm extractEntry test/copy-to.js
+530 silly gunzTarPerm modified mode [ 'test/copy-to.js', 436, 438 ]
+531 silly gunzTarPerm extractEntry test/custom-types.js
+532 silly gunzTarPerm modified mode [ 'test/custom-types.js', 436, 438 ]
+533 silly gunzTarPerm extractEntry test/domains.js
+534 silly gunzTarPerm modified mode [ 'test/domains.js', 436, 438 ]
+535 silly gunzTarPerm extractEntry test/empty-query.js
+536 silly gunzTarPerm modified mode [ 'test/empty-query.js', 436, 438 ]
+537 silly gunzTarPerm extractEntry test/huge-query.js
+538 silly gunzTarPerm modified mode [ 'test/huge-query.js', 436, 438 ]
+539 silly gunzTarPerm extractEntry test/index.js
+540 silly gunzTarPerm modified mode [ 'test/index.js', 436, 438 ]
+541 silly gunzTarPerm extractEntry test/load.js
+542 silly gunzTarPerm modified mode [ 'test/load.js', 436, 438 ]
+543 silly gunzTarPerm extractEntry test/many-connections.js
+544 silly gunzTarPerm modified mode [ 'test/many-connections.js', 436, 438 ]
+545 silly gunzTarPerm extractEntry test/many-errors.js
+546 silly gunzTarPerm modified mode [ 'test/many-errors.js', 436, 438 ]
+547 silly gunzTarPerm extractEntry test/mocha.opts
+548 silly gunzTarPerm modified mode [ 'test/mocha.opts', 436, 438 ]
+549 silly gunzTarPerm extractEntry test/multiple-queries.js
+550 silly gunzTarPerm modified mode [ 'test/multiple-queries.js', 436, 438 ]
+551 silly gunzTarPerm extractEntry test/multiple-statement-results.js
+552 silly gunzTarPerm modified mode [ 'test/multiple-statement-results.js', 436, 438 ]
+553 silly gunzTarPerm extractEntry test/notify.js
+554 silly gunzTarPerm modified mode [ 'test/notify.js', 436, 438 ]
+555 silly gunzTarPerm extractEntry test/prepare.js
+556 silly gunzTarPerm modified mode [ 'test/prepare.js', 436, 438 ]
+557 silly gunzTarPerm extractEntry test/query-async.js
+558 silly gunzTarPerm modified mode [ 'test/query-async.js', 436, 438 ]
+559 silly gunzTarPerm extractEntry test/query-sync.js
+560 silly gunzTarPerm modified mode [ 'test/query-sync.js', 436, 438 ]
+561 silly gunzTarPerm extractEntry test/version.js
+562 silly gunzTarPerm modified mode [ 'test/version.js', 436, 438 ]
+563 silly gunzTarPerm extractEntry passthrough.js
+564 silly gunzTarPerm modified mode [ 'passthrough.js', 420, 438 ]
+565 silly gunzTarPerm extractEntry writable.js
+566 silly gunzTarPerm modified mode [ 'writable.js', 420, 438 ]
+567 silly gunzTarPerm extractEntry nan_converters.h
+568 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+569 silly gunzTarPerm extractEntry nan_define_own_property_helper.h
+570 silly gunzTarPerm modified mode [ 'nan_define_own_property_helper.h', 436, 438 ]
 571 silly gunzTarPerm extractEntry lib/_stream_duplex.js
 572 silly gunzTarPerm modified mode [ 'lib/_stream_duplex.js', 436, 438 ]
 573 silly gunzTarPerm extractEntry lib/_stream_passthrough.js
@@ -3615,17 +3615,17 @@
 651 silly gunzTarPerm extractEntry tools/README.md
 652 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
 653 silly doParallel preinstall 6
-654 silly preinstall bindings C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d
+654 silly preinstall bindings D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-20476a601659b92ef23d5a20765a84e5
 655 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
-656 silly preinstall nan C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-a4c077d13e4165f502d5a674be108760
+656 silly preinstall nan D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-bd06e549d5ece1792a60cb585374e2d1
 657 info lifecycle nan@2.11.1~preinstall: nan@2.11.1
-658 silly preinstall libpq C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc
+658 silly preinstall libpq D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-2bff99f30eec4f4c92d2fe82269758dd
 659 info lifecycle libpq@1.8.8~preinstall: libpq@1.8.8
-660 silly preinstall string_decoder C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f
+660 silly preinstall string_decoder D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-027ffd306f466677975ccb8fb877ecc9
 661 info lifecycle string_decoder@0.10.31~preinstall: string_decoder@0.10.31
-662 silly preinstall readable-stream C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a
+662 silly preinstall readable-stream D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-244050f2f2d551e04964ad8c80e19b54
 663 info lifecycle readable-stream@1.0.31~preinstall: readable-stream@1.0.31
-664 silly preinstall pg-native C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6
+664 silly preinstall pg-native D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-18d258d33b8f363018dda8df8a459f9e
 665 info lifecycle pg-native@3.0.0~preinstall: pg-native@3.0.0
 666 silly lifecycle bindings@1.2.1~preinstall: no script for preinstall, continuing
 667 silly lifecycle nan@2.11.1~preinstall: no script for preinstall, continuing
@@ -3636,56 +3636,56 @@
 672 silly doReverseSerial remove 0
 673 silly doSerial move 0
 674 silly doSerial finalize 6
-675 silly finalize C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\bindings
-676 silly finalize C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\nan
-677 silly finalize C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\libpq
-678 silly finalize C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native\node_modules\string_decoder
-679 silly finalize C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native\node_modules\readable-stream
-680 silly finalize C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native
+675 silly finalize D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\bindings
+676 silly finalize D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\nan
+677 silly finalize D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\libpq
+678 silly finalize D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native\node_modules\string_decoder
+679 silly finalize D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native\node_modules\readable-stream
+680 silly finalize D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native
 681 silly doSerial build 6
 682 silly build bindings
 683 info linkStuff bindings@1.2.1
-684 silly linkStuff bindings@1.2.1 has C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules as its parent node_modules
+684 silly linkStuff bindings@1.2.1 has D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules as its parent node_modules
 685 verbose linkBins bindings@1.2.1
 686 verbose linkMans bindings@1.2.1
 687 verbose rebuildBundles bindings@1.2.1
 688 silly build nan
 689 info linkStuff nan@2.11.1
-690 silly linkStuff nan@2.11.1 has C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules as its parent node_modules
+690 silly linkStuff nan@2.11.1 has D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules as its parent node_modules
 691 verbose linkBins nan@2.11.1
 692 verbose linkMans nan@2.11.1
 693 verbose rebuildBundles nan@2.11.1
 694 silly build libpq
 695 info linkStuff libpq@1.8.8
-696 silly linkStuff libpq@1.8.8 has C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules as its parent node_modules
+696 silly linkStuff libpq@1.8.8 has D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules as its parent node_modules
 697 verbose linkBins libpq@1.8.8
 698 verbose linkMans libpq@1.8.8
 699 verbose rebuildBundles libpq@1.8.8
 700 silly build string_decoder
 701 info linkStuff string_decoder@0.10.31
-702 silly linkStuff string_decoder@0.10.31 has C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native\node_modules as its parent node_modules
+702 silly linkStuff string_decoder@0.10.31 has D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native\node_modules as its parent node_modules
 703 verbose linkBins string_decoder@0.10.31
 704 verbose linkMans string_decoder@0.10.31
 705 verbose rebuildBundles string_decoder@0.10.31
 706 silly build readable-stream
 707 info linkStuff readable-stream@1.0.31
-708 silly linkStuff readable-stream@1.0.31 has C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native\node_modules as its parent node_modules
+708 silly linkStuff readable-stream@1.0.31 has D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native\node_modules as its parent node_modules
 709 verbose linkBins readable-stream@1.0.31
 710 verbose linkMans readable-stream@1.0.31
 711 verbose rebuildBundles readable-stream@1.0.31
 712 silly build pg-native
 713 info linkStuff pg-native@3.0.0
-714 silly linkStuff pg-native@3.0.0 has C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules as its parent node_modules
+714 silly linkStuff pg-native@3.0.0 has D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules as its parent node_modules
 715 verbose linkBins pg-native@3.0.0
 716 verbose linkMans pg-native@3.0.0
 717 verbose rebuildBundles pg-native@3.0.0
 718 verbose rebuildBundles [ 'readable-stream', 'string_decoder' ]
-719 verbose rebuild bundle C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native\node_modules\string_decoder
-720 info build C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native\node_modules\string_decoder
+719 verbose rebuild bundle D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native\node_modules\string_decoder
+720 info build D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native\node_modules\string_decoder
 721 info lifecycle string_decoder@0.10.31~preinstall: string_decoder@0.10.31
 722 silly lifecycle string_decoder@0.10.31~preinstall: no script for preinstall, continuing
 723 info linkStuff string_decoder@0.10.31
-724 silly linkStuff string_decoder@0.10.31 has C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native\node_modules as its parent node_modules
+724 silly linkStuff string_decoder@0.10.31 has D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\pg-native\node_modules as its parent node_modules
 725 verbose linkBins string_decoder@0.10.31
 726 verbose linkMans string_decoder@0.10.31
 727 verbose rebuildBundles string_decoder@0.10.31
@@ -3696,21 +3696,21 @@
 732 silly doSerial global-link 0
 733 silly doParallel update-linked 0
 734 silly doSerial install 6
-735 silly install bindings C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d
+735 silly install bindings D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-20476a601659b92ef23d5a20765a84e5
 736 info lifecycle bindings@1.2.1~install: bindings@1.2.1
 737 silly lifecycle bindings@1.2.1~install: no script for install, continuing
-738 silly install nan C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-a4c077d13e4165f502d5a674be108760
+738 silly install nan D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-bd06e549d5ece1792a60cb585374e2d1
 739 info lifecycle nan@2.11.1~install: nan@2.11.1
 740 silly lifecycle nan@2.11.1~install: no script for install, continuing
-741 silly install libpq C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc
+741 silly install libpq D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-2bff99f30eec4f4c92d2fe82269758dd
 742 info lifecycle libpq@1.8.8~install: libpq@1.8.8
 743 verbose lifecycle libpq@1.8.8~install: unsafe-perm in lifecycle true
-744 verbose lifecycle libpq@1.8.8~install: PATH: C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Web\External\node_modules\npm\bin\node-gyp-bin;C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\libpq\node_modules\.bin;C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.bin;.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Web\External;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Common Files\ThinPrint\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\wfv4\AppData\Local\Microsoft\WindowsApps;C:\Users\wfv4\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Users\wfv4\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
-745 verbose lifecycle libpq@1.8.8~install: CWD: C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\libpq
+744 verbose lifecycle libpq@1.8.8~install: PATH: C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Web\External\node_modules\npm\bin\node-gyp-bin;D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\libpq\node_modules\.bin;D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.bin;.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Web\External;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Common Files\ThinPrint\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\wfv4\AppData\Local\Microsoft\WindowsApps;C:\Users\wfv4\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Users\wfv4\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+745 verbose lifecycle libpq@1.8.8~install: CWD: D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\libpq
 746 silly lifecycle libpq@1.8.8~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
 747 silly lifecycle libpq@1.8.8~install: Returned: code: 1  signal: null
 748 info lifecycle libpq@1.8.8~install: Failed to exec install script
-749 verbose unlock done using C:\Users\wfv4\AppData\Roaming\npm-cache\_locks\staging-44f1c483c9902d9f.lock for C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging
+749 verbose unlock done using C:\Users\wfv4\AppData\Roaming\npm-cache\_locks\staging-970813162f79cb3d.lock for D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging
 750 silly rollbackFailedOptional Starting
 751 silly rollbackFailedOptional Finishing
 752 silly runTopLevelLifecycles Starting
@@ -3727,7 +3727,7 @@
 755 verbose stack     at maybeClose (internal/child_process.js:821:16)
 755 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
 756 verbose pkgid libpq@1.8.8
-757 verbose cwd C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
+757 verbose cwd D:\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
 758 error Windows_NT 10.0.17134
 759 error argv "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Web\\External\\Node.exe" "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js" "install"
 760 error node v5.4.1
