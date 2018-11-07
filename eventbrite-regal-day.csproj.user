@@ -3,7 +3,7 @@
   <PropertyGroup>
     <UseIISExpress>true</UseIISExpress>
     <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
-    <NameOfLastUsedPublishProfile>StagingFTP</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>Staging</NameOfLastUsedPublishProfile>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
