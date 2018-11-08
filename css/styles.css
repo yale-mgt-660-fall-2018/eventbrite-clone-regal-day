@@ -1,0 +1,127 @@
+.footer {
+    width: 100%;
+    color:grey;
+    padding:10px 5% 5px 5%;
+    font-size:15px;
+    text-align:center;
+    display: inline-block;
+    background-color:#f1f1f1;
+    margin-top:5%;
+}
+
+.right{
+    float:right;
+    text-align:right;
+}
+
+.left{
+    float:left;
+    text-align:left;
+}
+
+.center{
+    margin: auto;
+}
+
+a:link,a:visited,a:hover,a:active{
+  color:#49aecc;
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("/img/discover.png");
+  margin-bottom: 5%;
+
+  /* Control the height of the image */
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position:absolute;
+  bottom:-15%;
+  left:20%;
+  margin: auto;
+  border: 1px solid #f1f1f1;
+  padding: 16px;
+  max-height: 130px;
+  width:60%;
+  background-color: white;
+
+}
+
+/* Full-width input fields */
+#welcomebanner input[type=text] {
+  width: 100%;
+  padding: 14px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+#welcomebanner select {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+#welcomebanner input[type=text]:focus, input[type=password]:focus, select {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+#welcomebanner .searchbtn {
+  padding: 14px 20px;
+  width: 100%;
+  opacity: 0.9;
+  bottom:5%;
+  margin-top:4px;
+}
+
+#welcomebanner .btn:hover {
+  opacity: 1;
+}
+
+#events {
+  width:80%;
+  margin: auto;
+}
+#general {
+    width: 80%;
+    margin: auto;
+}
+#about {
+    width: 80%;
+    margin: auto;
+}
+#about .pics {
+    float: left;
+    margin: 0 10px;
+}
+#about img {
+    height: 180px;
+}
+.navbar-brand span {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
