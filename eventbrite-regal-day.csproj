@@ -127,12 +127,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
+    <Content Include="About\Default.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="css\styles.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Events\Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -142,10 +144,47 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="img\faceless.jpeg" />
+    <Content Include="img\favicon\manifest.json" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\Live.pubxml" />
     <None Include="Properties\PublishProfiles\staging.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="img\1.jpg" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\4.jpg" />
+    <Content Include="img\discover.png" />
+    <Content Include="img\favicon\android-icon-144x144.png" />
+    <Content Include="img\favicon\android-icon-192x192.png" />
+    <Content Include="img\favicon\android-icon-36x36.png" />
+    <Content Include="img\favicon\android-icon-48x48.png" />
+    <Content Include="img\favicon\android-icon-72x72.png" />
+    <Content Include="img\favicon\android-icon-96x96.png" />
+    <Content Include="img\favicon\apple-icon-114x114.png" />
+    <Content Include="img\favicon\apple-icon-120x120.png" />
+    <Content Include="img\favicon\apple-icon-144x144.png" />
+    <Content Include="img\favicon\apple-icon-152x152.png" />
+    <Content Include="img\favicon\apple-icon-180x180.png" />
+    <Content Include="img\favicon\apple-icon-57x57.png" />
+    <Content Include="img\favicon\apple-icon-60x60.png" />
+    <Content Include="img\favicon\apple-icon-72x72.png" />
+    <Content Include="img\favicon\apple-icon-76x76.png" />
+    <Content Include="img\favicon\apple-icon-precomposed.png" />
+    <Content Include="img\favicon\apple-icon.png" />
+    <Content Include="img\favicon\browserconfig.xml" />
+    <Content Include="img\favicon\favicon-16x16.png" />
+    <Content Include="img\favicon\favicon-32x32.png" />
+    <Content Include="img\favicon\favicon-96x96.png" />
+    <Content Include="img\favicon\favicon.ico" />
+    <Content Include="img\favicon\ms-icon-144x144.png" />
+    <Content Include="img\favicon\ms-icon-150x150.png" />
+    <Content Include="img\favicon\ms-icon-310x310.png" />
+    <Content Include="img\favicon\ms-icon-70x70.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\Valentina.jpeg" />
+    <Content Include="img\WaynesWorld.jpeg" />
+    <Content Include="img\Willem.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -184,17 +223,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Code\Controller.cs" />
-    <Content Include="App_Code\Data.cs" />
-    <Content Include="App_Code\SQLHelper.cs" />
-    <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="About\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="About\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="App_Code\Controller.cs" />
+    <Compile Include="App_Code\Data.cs" />
+    <Compile Include="App_Code\SQLHelper.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -208,6 +247,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Events\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Events\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">

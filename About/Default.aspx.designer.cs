@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace eventbrite_regal_day
+namespace eventbrite_regal_day.About
 {
 
 
-    public partial class About
+    public partial class Default
     {
     }
 }
