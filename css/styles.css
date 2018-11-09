@@ -113,6 +113,9 @@ body, html {
 #about .pics {
     float: left;
     margin: 0 10px;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.2em;
 }
 #about img {
     height: 180px;

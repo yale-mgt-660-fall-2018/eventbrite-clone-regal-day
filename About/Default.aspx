@@ -15,11 +15,11 @@
             Valentina
         </div>
         <div class="pics">
-            <img src="../img/faceless.jpeg" /><br />
+            <img src="../img/Kiki.jpg" /><br />
             Kiki
         </div>
         <div class="pics">
-            <img src="../img/faceless.jpeg" /><br />
+            <img src="../img/Tanon.jpg" /><br />
             Tanon
         </div>
     </div>

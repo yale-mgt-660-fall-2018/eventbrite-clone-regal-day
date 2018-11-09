@@ -181,7 +181,9 @@
     <Content Include="img\favicon\ms-icon-150x150.png" />
     <Content Include="img\favicon\ms-icon-310x310.png" />
     <Content Include="img\favicon\ms-icon-70x70.png" />
+    <Content Include="img\Kiki.jpg" />
     <Content Include="img\logo.png" />
+    <Content Include="img\Tanon.jpg" />
     <Content Include="img\Valentina.jpeg" />
     <Content Include="img\WaynesWorld.jpeg" />
     <Content Include="img\Willem.png" />
