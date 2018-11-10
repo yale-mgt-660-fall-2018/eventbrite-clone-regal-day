@@ -144,6 +144,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="img\About-2.png" />
+    <Content Include="img\burndown-2.png" />
     <Content Include="img\faceless.jpeg" />
     <Content Include="img\favicon\manifest.json" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
@@ -181,9 +183,11 @@
     <Content Include="img\favicon\ms-icon-150x150.png" />
     <Content Include="img\favicon\ms-icon-310x310.png" />
     <Content Include="img\favicon\ms-icon-70x70.png" />
+    <Content Include="img\home-2.png" />
     <Content Include="img\Kiki.jpg" />
     <Content Include="img\logo.png" />
     <Content Include="img\Tanon.jpg" />
+    <Content Include="img\trello-2.png" />
     <Content Include="img\Valentina.jpeg" />
     <Content Include="img\WaynesWorld.jpeg" />
     <Content Include="img\Willem.png" />
@@ -216,6 +220,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="sprint-2.html" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
