@@ -9,9 +9,9 @@ namespace eventbrite_regal_day.App_Code
 {
     public class Controller
     {
-        public SqlDataReader Note_Get(bool SenderType, SqlGuid UserID)
+        public SqlDataReader Events_Get(SqlGuid UserID)
         {
-            return DataProvider.Instance.Note_Get(SenderType, UserID);
+            return DataProvider.Instance.Events_Get(UserID);
         }
     }
 }

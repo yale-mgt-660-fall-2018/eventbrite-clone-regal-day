@@ -48,9 +48,9 @@ namespace eventbrite_regal_day.App_Code
         }
         #endregion
         #region Methods
-        public SqlDataReader Note_Get(bool SenderType, SqlGuid UserID)
+        public SqlDataReader Events_Get(SqlGuid UserID)
         {
-            return SqlHelper.ExecuteReader(ConnectionString, "Admin_Note_Get", SenderType, UserID);
+            return SqlHelper.ExecuteReader(ConnectionString, "Events_Get", UserID);
         }
         #endregion
     }
