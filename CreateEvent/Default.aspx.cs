@@ -30,5 +30,15 @@ namespace eventbrite_regal_day.CreateEvent
         {
 
         }
+
+        protected void btnUploadFile_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnCancelUpload_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

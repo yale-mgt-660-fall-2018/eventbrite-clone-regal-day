@@ -36,14 +36,14 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
     <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="/img/favicon/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
 </head>
 <body>
     <form runat="server">
@@ -52,8 +52,8 @@
                 <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
                 <%--Framework Scripts--%>
                 <asp:ScriptReference Name="MsAjaxBundle" />
-                <%--<asp:ScriptReference Name="jquery" />
-                <asp:ScriptReference Name="bootstrap" />--%>
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
                 <asp:ScriptReference Name="respond" />
                 <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
                 <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />

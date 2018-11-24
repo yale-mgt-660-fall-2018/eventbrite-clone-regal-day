@@ -49,9 +49,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\AjaxControls.dll</HintPath>
     </Reference>
-    <Reference Include="AjaxControlToolkit, Version=3.5.60501.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    <Reference Include="AjaxControlToolkit, Version=18.1.1.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>packages\AjaxControlToolkit.18.1.1\lib\net40\AjaxControlToolkit.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
@@ -137,13 +136,12 @@
   <ItemGroup>
     <Content Include="About\Default.aspx" />
     <Content Include="bin\AjaxControls.dll" />
-    <Content Include="bin\AjaxControls.pdb" />
-    <Content Include="bin\AjaxControlToolkit.dll" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="CreateEvent\Default.aspx" />
+    <Content Include="css\CustomValidator.css" />
     <Content Include="css\styles.css" />
     <Content Include="Default.aspx" />
     <Content Include="Events\Default.aspx" />
@@ -204,6 +202,12 @@
     <Content Include="img\trello-2.png" />
     <Content Include="img\trello-3.png" />
     <Content Include="img\Valentina.jpeg" />
+    <Content Include="img\ValidatorCallout\alert-large.gif" />
+    <Content Include="img\ValidatorCallout\alert-small.gif" />
+    <Content Include="img\ValidatorCallout\arrow-left.gif" />
+    <Content Include="img\ValidatorCallout\arrow-right.gif" />
+    <Content Include="img\ValidatorCallout\Calendar.ico" />
+    <Content Include="img\ValidatorCallout\close.gif" />
     <Content Include="img\WaynesWorld.jpeg" />
     <Content Include="img\Willem.png" />
     <Content Include="img\Yoga_3.png" />
@@ -238,10 +242,10 @@
     <Content Include="Site.Master" />
     <Content Include="sprint-2.html" />
     <Content Include="sprint-3.html" />
+    <Content Include="UserControls\Loader.ascx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
-    <Content Include="Site.Mobile.Master" />
     <None Include="Web.StagingFTP.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -298,12 +302,12 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
-    <Compile Include="Site.Mobile.Master.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    <Compile Include="UserControls\Loader.ascx.cs">
+      <DependentUpon>Loader.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Site.Mobile.Master.designer.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    <Compile Include="UserControls\Loader.ascx.designer.cs">
+      <DependentUpon>Loader.ascx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

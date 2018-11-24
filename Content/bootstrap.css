@@ -1673,7 +1673,7 @@ input[type="checkbox"] {
 }
 
 input[type="file"] {
-  display: block;
+  display: none;
 }
 
 select[multiple],

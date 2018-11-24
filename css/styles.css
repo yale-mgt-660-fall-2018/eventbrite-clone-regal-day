@@ -1,3 +1,5 @@
+@import url(CustomValidator.css);
+
 .footer {
     width: 100%;
     color:grey;
@@ -127,4 +129,28 @@ body, html {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     line-height: 1.1;
+}
+.btnChooseFile {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+div.btnChoosefile, input.inputChooseFile {
+    vertical-align: top;
+    margin-top: 10px;
+    height: 40px;
+    width: 30%;
+}
+
+.btnChooseFile input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
 }

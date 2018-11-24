@@ -31,6 +31,15 @@ namespace eventbrite_regal_day.CreateEvent {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rqEventName;
         
         /// <summary>
+        /// vceEventName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.ValidatorCalloutExtender vceEventName;
+        
+        /// <summary>
         /// txtEventDate control.
         /// </summary>
         /// <remarks>
@@ -49,15 +58,6 @@ namespace eventbrite_regal_day.CreateEvent {
         protected global::AjaxControlToolkit.CalendarExtender ceEventDate;
         
         /// <summary>
-        /// meEventDate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::AjaxControlToolkit.MaskedEditExtender meEventDate;
-        
-        /// <summary>
         /// rqEventDate control.
         /// </summary>
         /// <remarks>
@@ -65,6 +65,33 @@ namespace eventbrite_regal_day.CreateEvent {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rqEventDate;
+        
+        /// <summary>
+        /// Validatorcalloutextender1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.ValidatorCalloutExtender Validatorcalloutextender1;
+        
+        /// <summary>
+        /// rejexEventDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rejexEventDate;
+        
+        /// <summary>
+        /// vcerejexEventDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.ValidatorCalloutExtender vcerejexEventDate;
         
         /// <summary>
         /// txtEventAddress control.
@@ -85,22 +112,130 @@ namespace eventbrite_regal_day.CreateEvent {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rqEventAddress;
         
         /// <summary>
-        /// txtEmail control.
+        /// vceEventAddress control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::AjaxControlToolkit.ValidatorCalloutExtender vceEventAddress;
         
         /// <summary>
-        /// rqEmail control.
+        /// txtOrganizerEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rqEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtOrganizerEmail;
+        
+        /// <summary>
+        /// rqOrganizerEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rqOrganizerEmail;
+        
+        /// <summary>
+        /// vcerqOrganizerEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.ValidatorCalloutExtender vcerqOrganizerEmail;
+        
+        /// <summary>
+        /// rejexOrganizerEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rejexOrganizerEmail;
+        
+        /// <summary>
+        /// vcerejexOrganizerEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.ValidatorCalloutExtender vcerejexOrganizerEmail;
+        
+        /// <summary>
+        /// txtDescription control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtDescription;
+        
+        /// <summary>
+        /// rqDescription control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rqDescription;
+        
+        /// <summary>
+        /// vceDescription control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.ValidatorCalloutExtender vceDescription;
+        
+        /// <summary>
+        /// FileUpload1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
+        
+        /// <summary>
+        /// ChooseFileName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText ChooseFileName;
+        
+        /// <summary>
+        /// btnUploadFile control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnUploadFile;
+        
+        /// <summary>
+        /// btnCancelUpload control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCancelUpload;
+        
+        /// <summary>
+        /// imgEmailLogo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgEmailLogo;
         
         /// <summary>
         /// lnkSubmit control.
