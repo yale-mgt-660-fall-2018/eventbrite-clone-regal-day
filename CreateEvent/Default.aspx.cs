@@ -17,13 +17,18 @@ namespace eventbrite_regal_day.CreateEvent
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            using (SqlDataReader objReader = objController.Events_Get(UserID))
-            {
-                if (objReader.Read())
-                {
+            //using (SqlDataReader objReader = objController.Events_Get(UserID))
+            //{
+            //    if (objReader.Read())
+            //    {
 
-                }
-            }
+            //    }
+            //}
+        }
+
+        protected void lnkSubmit_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
