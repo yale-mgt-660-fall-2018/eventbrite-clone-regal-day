@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -55,10 +56,12 @@ namespace eventbrite_regal_day.CreateEvent
 
         protected void lnkSubmit_Click(object sender, EventArgs e)
         {
-            System.Drawing.Image imag = System.Drawing.Image.FromStream(FileUpload1.PostedFile.InputStream);
             try
             {
+                System.Drawing.Image imag = System.Drawing.Image.FromStream(FileUpload1.PostedFile.InputStream);
+                //WebClient client = new WebClient();
                 byte[] image = ConvertImageToByteArray(imag, System.Drawing.Imaging.ImageFormat.Jpeg);
+                //byte[] image = client.DownloadData(imgEventImage.ImageUrl);
                 objController.Event_Add(UserID, Convert.ToInt32(ViewState["EventID"]), txtEventName.Text, txtEventDate.Text + " " + ddlTime.Text, txtLocation.Text, txtOrganizerEmail.Text, txtDescription.Text, image);
             }
             catch { }
