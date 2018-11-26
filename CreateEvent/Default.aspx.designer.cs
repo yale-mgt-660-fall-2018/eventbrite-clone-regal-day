@@ -49,6 +49,15 @@ namespace eventbrite_regal_day.CreateEvent {
         protected global::System.Web.UI.WebControls.TextBox txtEventDate;
         
         /// <summary>
+        /// ddlTime control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlTime;
+        
+        /// <summary>
         /// ceEventDate control.
         /// </summary>
         /// <remarks>
@@ -94,31 +103,31 @@ namespace eventbrite_regal_day.CreateEvent {
         protected global::AjaxControlToolkit.ValidatorCalloutExtender vcerejexEventDate;
         
         /// <summary>
-        /// txtEventAddress control.
+        /// txtLocation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEventAddress;
+        protected global::System.Web.UI.WebControls.TextBox txtLocation;
         
         /// <summary>
-        /// rqEventAddress control.
+        /// rqLocation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rqEventAddress;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rqLocation;
         
         /// <summary>
-        /// vceEventAddress control.
+        /// vceLocation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::AjaxControlToolkit.ValidatorCalloutExtender vceEventAddress;
+        protected global::AjaxControlToolkit.ValidatorCalloutExtender vceLocation;
         
         /// <summary>
         /// txtOrganizerEmail control.
@@ -229,13 +238,22 @@ namespace eventbrite_regal_day.CreateEvent {
         protected global::System.Web.UI.WebControls.Button btnCancelUpload;
         
         /// <summary>
-        /// imgEmailLogo control.
+        /// divEventImage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgEmailLogo;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divEventImage;
+        
+        /// <summary>
+        /// imgEventImage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgEventImage;
         
         /// <summary>
         /// lnkSubmit control.

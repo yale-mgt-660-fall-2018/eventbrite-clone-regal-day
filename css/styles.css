@@ -26,7 +26,8 @@
 }
 
 a:link,a:visited,a:hover,a:active{
-  color:#49aecc;
+  color:#fff;
+  text-decoration:none;
 }
 
 body, html {

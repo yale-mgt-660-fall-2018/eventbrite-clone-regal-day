@@ -242,6 +242,7 @@
     <Content Include="Site.Master" />
     <Content Include="sprint-2.html" />
     <Content Include="sprint-3.html" />
+    <Content Include="UserControls\imagehandler.aspx" />
     <Content Include="UserControls\Loader.ascx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -301,6 +302,13 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\imagehandler.aspx.cs">
+      <DependentUpon>imagehandler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\imagehandler.aspx.designer.cs">
+      <DependentUpon>imagehandler.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserControls\Loader.ascx.cs">
       <DependentUpon>Loader.ascx</DependentUpon>

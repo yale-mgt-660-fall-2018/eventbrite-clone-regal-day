@@ -48,6 +48,14 @@ namespace eventbrite_regal_day.App_Code
         }
         #endregion
         #region Methods
+        public SqlDataReader Event_Get(SqlGuid UserID, int EventID)
+        {
+            return SqlHelper.ExecuteReader(ConnectionString, "Event_Get", UserID, EventID);
+        }
+        public void Event_Add(SqlGuid UserID, int EventID, string EventName, DateTime EventDate, string Location, string OrganizerEmail, string Description, byte[] EventImage)
+        {
+            SqlHelper.ExecuteNonQuery(ConnectionString, "Event_Add", UserID, EventID, EventName, EventDate, Location, OrganizerEmail, Description, EventImage);
+        }
         public SqlDataReader Events_Get(SqlGuid UserID)
         {
             return SqlHelper.ExecuteReader(ConnectionString, "Events_Get", UserID);

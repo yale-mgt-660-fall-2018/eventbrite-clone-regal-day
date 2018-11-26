@@ -38,6 +38,7 @@
     <meta name="theme-color" content="#ffffff">
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
+         <%: Scripts.Render("~/bundles/jquery") %>
     </asp:PlaceHolder>
 
     <webopt:BundleReference runat="server" Path="~/Content/css" />
