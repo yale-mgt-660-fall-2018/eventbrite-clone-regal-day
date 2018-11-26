@@ -63,6 +63,7 @@ namespace eventbrite_regal_day.CreateEvent
                 byte[] image = ConvertImageToByteArray(imag, System.Drawing.Imaging.ImageFormat.Jpeg);
                 //byte[] image = client.DownloadData(imgEventImage.ImageUrl);
                 objController.Event_Add(UserID, Convert.ToInt32(ViewState["EventID"]), txtEventName.Text, txtEventDate.Text + " " + ddlTime.Text, txtLocation.Text, txtOrganizerEmail.Text, txtDescription.Text, image);
+                Response.Redirect("/");
             }
             catch { }
         }
