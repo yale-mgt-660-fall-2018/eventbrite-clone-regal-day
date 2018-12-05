@@ -29,6 +29,8 @@ namespace eventbrite_regal_day.CreateEvent
             {
                 if (Request.QueryString["EventID"] != null)
                 {
+                    ((Literal)Master.FindControl("litH1")).Text = "Edit the Event";
+
                     ViewState["EventID"] = Request.QueryString["EventID"];
                     using (SqlDataReader objReader = objController.Event_Get(UserID, Request.QueryString["EventID"]))
                     {
@@ -39,18 +41,16 @@ namespace eventbrite_regal_day.CreateEvent
                             txtLocation.Text = objReader["Location"].ToString();
                             txtOrganizerEmail.Text = objReader["OrganizerEmail"].ToString();
                             txtDescription.Text = objReader["Description"].ToString();
-                            imgEventImage.ImageUrl = "imagehandler.ascx?EventID=" + objReader["EventID"].ToString();
+                            imgEventImage.ImageUrl = "../UserControls/imagehandler.aspx?EventID=" + objReader["EventID"].ToString();
                         }
                         objReader.Close();
                     }
                 }
                 else
+                {
                     ViewState["EventID"] = "0";
-
-                //if (imgEventImage.ImageUrl == "")
-                //    divEventImage.Visible = false;
-                //else
-                //    divEventImage.Visible = true;
+                    ((Literal)Master.FindControl("litH1")).Text = "Create the Event";
+                }
             }
         }
 

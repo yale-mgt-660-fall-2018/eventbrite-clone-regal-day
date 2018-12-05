@@ -60,6 +60,10 @@ namespace eventbrite_regal_day.App_Code
         {
             return SqlHelper.ExecuteReader(ConnectionString, "Events_Get", UserID);
         }
+        public void PartyGoers_Add(SqlGuid UserID, int PID, int EventID, string Name, string Email)
+        {
+            SqlHelper.ExecuteNonQuery(ConnectionString, "PartyGoers_Add", UserID, EventID, Name, Email);
+        }
         #endregion
     }
 }

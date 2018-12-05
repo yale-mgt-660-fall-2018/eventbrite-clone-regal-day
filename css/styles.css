@@ -26,8 +26,8 @@
 }
 
 a:link,a:visited,a:hover,a:active{
-  color:#fff !important;
-  text-decoration:none !important;
+  /*color:#fff !important;
+  text-decoration:none !important;*/
 }
 
 body, html {
@@ -154,4 +154,10 @@ div.btnChoosefile, input.inputChooseFile {
     cursor: pointer;
     opacity: 0;
     filter: alpha(opacity=0);
+}
+.sectionheader a {
+    margin-top:25px;
+}
+.btn.green {
+    background-color: #76b976;
 }

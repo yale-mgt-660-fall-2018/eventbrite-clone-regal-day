@@ -39,45 +39,29 @@
         <div id="events">
             <div class="sectionheader">
                 <h3 class="left">Events</h3>
-                <a class="right" href="#">See all</a>
+                <a class="right" href="/createevent/">Register an Event</a>
                 <hr style="clear: both;" />
             </div>
 
             <div class="card-group">
-                <div class="card ">
-                    <a href="#">
-                        <img class="card-img-top" src="img/4.jpg" alt="Card image cap">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a placeholder for upcoming events</p>
-                    </div>
-
-                </div>
-
-
-                <div class="card">
-                    <a href="#">
-                        <img class="card-img-top" src="img/2.jpg" alt="Card image cap">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a placeholder for upcoming events</p>
-                    </div>
-                </div>
-
-
-                <div class="card">
-                    <a href="#">
-                        <img class="card-img-top" src="img/1.jpg" alt="Card image cap">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a placeholder for upcoming events</p>
-                    </div>
-
-                </div>
-
+                <asp:Repeater ID="rptEvents" runat="server" OnItemDataBound="rptEvents_ItemDataBound">
+                    <ItemTemplate>
+                        <div class="card ">
+                            <a href="#">
+                                <asp:Label ID="lblEventID" runat="server" Text='<%# DataBinder.Eval(Container.DataItem,"EventID").ToString() %>' Visible="false"></asp:Label>
+                                <asp:Image ID="imgEventImage" CssClass="card-img-top" runat="server" AlternateText="Card image cap" />
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title"><b>What's the party?</b> <%# DataBinder.Eval(Container.DataItem,"EventName").ToString() %></h5>
+                                <p class="card-text"><b>Where is it?</b> <%# DataBinder.Eval(Container.DataItem,"Location").ToString() %></p>
+                                <p class="card-text"><b>When is it?</b> <%# DataBinder.Eval(Container.DataItem,"EventDate").ToString() %></p>
+                                <p class="card-text"><b>What's it about?</b> <%# DataBinder.Eval(Container.DataItem,"Description").ToString() %></p>
+                                <div style="float:left; width:150px;"><asp:LinkButton ID="lnkRSVP" runat="server" CssClass="btn btn-primary">RSVP</asp:LinkButton></div>
+                                <div style="float:right; width:150px;"><asp:LinkButton ID="lnkEdit" runat="server" CssClass="btn btn-primary green">EDIT</asp:LinkButton></div>
+                            </div>
+                        </div>
+                    </ItemTemplate>
+                </asp:Repeater>
             </div>
         </div>
     </div>

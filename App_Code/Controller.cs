@@ -25,5 +25,9 @@ namespace eventbrite_regal_day.App_Code
         {
             return DataProvider.Instance.Events_Get(UserID);
         }
+        public void PartyGoers_Add(SqlGuid UserID, int PID, int EventID, string Name, string Email)
+        {
+            DataProvider.Instance.PartyGoers_Add(UserID, PID, EventID, Name, Email);
+        }
     }
 }
