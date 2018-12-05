@@ -71,8 +71,8 @@
                             </dl>
 
                             <div class="alert alert-warning">
-                                Don't want to be a leech? <asp:LinkButton ID="lnkDonate" runat="server" CssClass="alert-link">Donate</asp:LinkButton>.
-                       
+                                Don't want to be a leech? <asp:LinkButton ID="lnkDonate" runat="server" CssClass="alert-link" OnClick="lnkDonate_Click">Donate</asp:LinkButton><br />
+                                Amount ($)<asp:TextBox ID="txtAmount" runat="server" Text="10" CssClass="form-control"></asp:TextBox>
                             </div>
 
                             <dl>
@@ -84,7 +84,7 @@
                     </div>
                 </div>
                 <div class="rsvpbox">
-                    <h5>Don't be a party pooper. Come by the party!</h5>
+                    <h5>Don't be a party pooper. Stop by the party!</h5>
                     <div class="form-row align-items-center">
                         <div class="col-md-4">
                             <label class="sr-only" for="inlineFormInput">Name</label>
@@ -98,10 +98,13 @@
                                 <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control mb-2" placeholder="Email"></asp:TextBox>
                                 <asp:RequiredFieldValidator SetFocusOnError="true" ID="rqEmail" runat="server" ErrorMessage="Please enter an email" ControlToValidate="txtEmail" Display="None"></asp:RequiredFieldValidator>
                                 <ajaxToolkit:ValidatorCalloutExtender PopupPosition="BottomLeft" CssClass="CustomValidator" runat="Server" ID="vceEmail" TargetControlID="rqEmail" HighlightCssClass="highlight" WarningIconImageUrl="../img/ValidatorCallout/alert-small.gif" CloseImageUrl="../img/ValidatorCallout/close.gif" />
+                                <asp:RegularExpressionValidator SetFocusOnError="true" ID="rejexEmail" runat="server" ErrorMessage="Enter the email address in the correct format." ControlToValidate="txtEmail" Display="None" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                                <ajaxToolkit:ValidatorCalloutExtender CssClass="CustomValidator" runat="Server" ID="vcerejexEmail" TargetControlID="rejexEmail" HighlightCssClass="highlight" WarningIconImageUrl="../img/ValidatorCallout/alert-small.gif" CloseImageUrl="../img/ValidatorCallout/close.gif" />
                             </div>
                         </div>
                         <div class="col-auto">
                             <asp:LinkButton ID="lnkSubmit" runat="server" CssClass="btn btn-primary mb-2" OnClick="lnkSubmit_Click">RSVP</asp:LinkButton>
+                            <asp:LinkButton ID="lnkGoBack" runat="server" CssClass="btn btn-primary mb-2" OnClick="lnkGoBack_Click" CausesValidation="false">GO BACK</asp:LinkButton>
                         </div>
                     </div>
                 </div>
@@ -118,12 +121,16 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <asp:Repeater ID="rptPartyGoers" runat="server">
+                                <asp:Repeater ID="rptPartyGoers" runat="server" OnItemCommand="rptPartyGoers_ItemCommand">
                                     <ItemTemplate>
                                         <tr>
-                                            <td><asp:Literal ID="litrptName" runat="server"></asp:Literal></td>
-                                            <td><asp:Literal ID="litrptEmail" runat="server"></asp:Literal></td>
-                                            <td><asp:LinkButton ID="lnkrptDelete" runat="server">Kick em out</asp:LinkButton></td>
+                                            <td>
+                                                <asp:Literal ID="litrptPID" runat="server" Visible="false" Text='<%# DataBinder.Eval(Container.DataItem,"PID").ToString() %>'></asp:Literal>
+                                                <asp:Literal ID="litrptEventID" runat="server" Visible="false" Text='<%# DataBinder.Eval(Container.DataItem,"EventID").ToString() %>'></asp:Literal>
+                                                <asp:Literal ID="litrptName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem,"Name").ToString() %>'></asp:Literal>
+                                            </td>
+                                            <td><asp:Literal ID="litrptEmail" runat="server" Text='<%# DataBinder.Eval(Container.DataItem,"Email").ToString() %>'></asp:Literal></td>
+                                            <td><asp:LinkButton ID="lnkrptDelete" runat="server" CommandName="Delete">Kick em out</asp:LinkButton></td>
                                         </tr>
                                     </ItemTemplate>
                                 </asp:Repeater>

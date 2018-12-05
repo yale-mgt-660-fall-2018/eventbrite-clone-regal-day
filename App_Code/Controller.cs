@@ -21,6 +21,12 @@ namespace eventbrite_regal_day.App_Code
             
             DataProvider.Instance.Event_Add(UserID, EventID, EventName, _EventDate, Location, OrganizerEmail, Description, EventImage);
         }
+        public void Event_Update(SqlGuid UserID, int EventID, string EventName, string EventDate, string Location, string OrganizerEmail, string Description)
+        {
+            DateTime _EventDate = Convert.ToDateTime(EventDate);
+
+            DataProvider.Instance.Event_Update(UserID, EventID, EventName, _EventDate, Location, OrganizerEmail, Description);
+        }
         public SqlDataReader Events_Get(SqlGuid UserID)
         {
             return DataProvider.Instance.Events_Get(UserID);
@@ -28,6 +34,14 @@ namespace eventbrite_regal_day.App_Code
         public void PartyGoers_Add(SqlGuid UserID, int PID, int EventID, string Name, string Email)
         {
             DataProvider.Instance.PartyGoers_Add(UserID, PID, EventID, Name, Email);
+        }
+        public void PartyGoers_Delete(SqlGuid UserID, int PID)
+        {
+            DataProvider.Instance.PartyGoers_Delete(UserID, PID);
+        }
+        public SqlDataReader PartyGoers_Get(SqlGuid UserID, int EventID)
+        {
+            return DataProvider.Instance.PartyGoers_Get(UserID, EventID);
         }
     }
 }

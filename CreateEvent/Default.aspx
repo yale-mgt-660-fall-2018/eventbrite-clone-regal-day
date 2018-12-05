@@ -188,7 +188,7 @@
                 </div>
             </div>
 
-            <div class="form-row ">
+            <%--<div class="form-row ">
                 <div class="col-md-4 mb-3">
                     <input type="checkbox" name="donation">
                     <label for="donation">Request guest donation</label>
@@ -201,7 +201,7 @@
                     <div class="invalid-feedback">Please provide donation target</div>
                 </div>
 
-            </div>
+            </div>--%>
 
             <!-- http://getbootstrap.com/docs/4.1/components/buttons/ -->
             <%--<button class="btn btn-primary" type="submit">Submit</button>--%>

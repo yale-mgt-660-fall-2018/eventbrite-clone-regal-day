@@ -100,7 +100,7 @@
                 <ul class="list-inline">
                     <li class="list-inline-item"><b><a href="/About/">About .</a></b></li>
                     <li class="list-inline-item"><b><a href="/">Home .</a></b></li>
-                    <li class="list-inline-item"><b><a href="/Events/">Events</a></b></li>
+                    <li class="list-inline-item"><b><a href="/createevent/">Register an Event</a></b></li>
                 </ul>
             </div>
             <span class="right">Copyright &copy; <%: DateTime.Now.Year %>, Wayne &amp Garth Inc.</span>

@@ -56,13 +56,26 @@ namespace eventbrite_regal_day.App_Code
         {
             SqlHelper.ExecuteNonQuery(ConnectionString, "Event_Add", UserID, EventID, EventName, EventDate, Location, OrganizerEmail, Description, EventImage);
         }
+        public void Event_Update(SqlGuid UserID, int EventID, string EventName, DateTime EventDate, string Location, string OrganizerEmail, string Description)
+        {
+            SqlHelper.ExecuteNonQuery(ConnectionString, "Event_Update", UserID, EventID, EventName, EventDate, Location, OrganizerEmail, Description);
+        }
+        
         public SqlDataReader Events_Get(SqlGuid UserID)
         {
             return SqlHelper.ExecuteReader(ConnectionString, "Events_Get", UserID);
         }
         public void PartyGoers_Add(SqlGuid UserID, int PID, int EventID, string Name, string Email)
         {
-            SqlHelper.ExecuteNonQuery(ConnectionString, "PartyGoers_Add", UserID, EventID, Name, Email);
+            SqlHelper.ExecuteNonQuery(ConnectionString, "PartyGoers_Add", UserID, PID, EventID, Name, Email);
+        }
+        public void PartyGoers_Delete(SqlGuid UserID, int PID)
+        {
+            SqlHelper.ExecuteNonQuery(ConnectionString, "PartyGoers_Delete", UserID, PID);
+        }
+        public SqlDataReader PartyGoers_Get(SqlGuid UserID, int EventID)
+        {
+            return SqlHelper.ExecuteReader(ConnectionString, "PartyGoers_Get", UserID, EventID);
         }
         #endregion
     }

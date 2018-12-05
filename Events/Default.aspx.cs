@@ -44,6 +44,9 @@ namespace eventbrite_regal_day.Events
                         }
                         objReader.Close();
                     }
+
+                    rptPartyGoers.DataSource = objController.PartyGoers_Get(UserID, Convert.ToInt32(ViewState["EventID"]));
+                    rptPartyGoers.DataBind();
                 }
                 else
                     Response.Redirect("/");
@@ -53,31 +56,30 @@ namespace eventbrite_regal_day.Events
         protected void lnkSubmit_Click(object sender, EventArgs e)
         {
             objController.PartyGoers_Add(UserID, 0, Convert.ToInt32(ViewState["EventID"]), txtName.Text, txtEmail.Text);
+            rptPartyGoers.DataSource = objController.PartyGoers_Get(UserID, Convert.ToInt32(ViewState["EventID"]));
+            rptPartyGoers.DataBind();
         }
 
-        protected void btnUploadFile_Click(object sender, EventArgs e)
+        protected void rptPartyGoers_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
-
-        }
-
-        protected void btnCancelUpload_Click(object sender, EventArgs e)
-        {
-
-        }
-        private byte[] ConvertImageToByteArray(System.Drawing.Image imageToConvert,
-                                       System.Drawing.Imaging.ImageFormat formatOfImage)
-        {
-            byte[] Ret;
-            try
+            switch (e.CommandName)
             {
-                using (MemoryStream ms = new MemoryStream())
-                {
-                    imageToConvert.Save(ms, formatOfImage);
-                    Ret = ms.ToArray();
-                }
+                case "Delete":
+                    objController.PartyGoers_Delete(UserID, Convert.ToInt32(((Literal)e.Item.FindControl("litrptPID")).Text));
+                    rptPartyGoers.DataSource = objController.PartyGoers_Get(UserID, Convert.ToInt32(ViewState["EventID"]));
+                    rptPartyGoers.DataBind();
+                    break;
             }
-            catch (Exception) { throw; }
-            return Ret;
+        }
+
+        protected void lnkGoBack_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/");
+        }
+
+        protected void lnkDonate_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

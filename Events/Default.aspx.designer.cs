@@ -67,6 +67,15 @@ namespace eventbrite_regal_day.Events {
         protected global::System.Web.UI.WebControls.LinkButton lnkDonate;
         
         /// <summary>
+        /// txtAmount control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtAmount;
+        
+        /// <summary>
         /// litOrganizerEmail control.
         /// </summary>
         /// <remarks>
@@ -130,6 +139,24 @@ namespace eventbrite_regal_day.Events {
         protected global::AjaxControlToolkit.ValidatorCalloutExtender vceEmail;
         
         /// <summary>
+        /// rejexEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rejexEmail;
+        
+        /// <summary>
+        /// vcerejexEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.ValidatorCalloutExtender vcerejexEmail;
+        
+        /// <summary>
         /// lnkSubmit control.
         /// </summary>
         /// <remarks>
@@ -137,6 +164,15 @@ namespace eventbrite_regal_day.Events {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton lnkSubmit;
+        
+        /// <summary>
+        /// lnkGoBack control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton lnkGoBack;
         
         /// <summary>
         /// rptPartyGoers control.
