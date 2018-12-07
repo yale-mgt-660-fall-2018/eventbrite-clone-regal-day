@@ -56,8 +56,8 @@
                                 <p class="card-text"><b>Where is it?</b> <%# DataBinder.Eval(Container.DataItem,"Location").ToString() %></p>
                                 <p class="card-text"><b>When is it?</b> <%# DataBinder.Eval(Container.DataItem,"EventDate").ToString() %></p>
                                 <p class="card-text"><b>What's it about?</b> <%# DataBinder.Eval(Container.DataItem,"Description").ToString() %></p>
-                                <div style="float:left; width:150px;"><asp:LinkButton ID="lnkRSVP" runat="server" CssClass="btn btn-primary">RSVP</asp:LinkButton></div>
-                                <div style="float:right; width:150px;"><asp:LinkButton ID="lnkEdit" runat="server" CssClass="btn btn-primary green">EDIT</asp:LinkButton></div>
+                                <div style="float:left; width:50%;"><asp:LinkButton ID="lnkRSVP" runat="server" CssClass="btn btn-primary">RSVP</asp:LinkButton></div>
+                                <div style="float:right; width:50%; text-align:right;"><asp:LinkButton ID="lnkEdit" runat="server" CssClass="btn btn-primary green">EDIT</asp:LinkButton></div>
                             </div>
                         </div>
                     </ItemTemplate>

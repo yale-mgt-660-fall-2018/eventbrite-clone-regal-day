@@ -26,30 +26,30 @@
 23 silly mapToRegistry uri https://registry.npmjs.org/pg-native
 24 verbose request uri https://registry.npmjs.org/pg-native
 25 verbose request no auth needed
-26 info attempt registry request try #1 at 11:16:38 AM
-27 verbose request id d61be30e35d1fc5b
+26 info attempt registry request try #1 at 1:51:11 PM
+27 verbose request id 3448bc8475752f9f
 28 verbose etag W/"38e05bcdde596190baf9d086669eb337"
 29 verbose lastModified Sun, 27 May 2018 12:09:41 GMT
 30 http request GET https://registry.npmjs.org/pg-native
 31 http 304 https://registry.npmjs.org/pg-native
-32 verbose headers { date: 'Tue, 04 Dec 2018 16:16:38 GMT',
+32 verbose headers { date: 'Fri, 07 Dec 2018 18:51:11 GMT',
 32 verbose headers   connection: 'keep-alive',
-32 verbose headers   'set-cookie': [ '__cfduid=db0a9bbc7b6d957dbf05a0922b339f9a31543940198; expires=Wed, 04-Dec-19 16:16:38 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-32 verbose headers   'cf-cache-status': 'HIT',
+32 verbose headers   'set-cookie': [ '__cfduid=d335e504c4d53599c6a94680626aea1281544208670; expires=Sat, 07-Dec-19 18:51:10 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+32 verbose headers   'cf-cache-status': 'REVALIDATED',
 32 verbose headers   'cache-control': 'max-age=300',
-32 verbose headers   'cf-ray': '483f94200d225a74-BOS',
+32 verbose headers   'cf-ray': '48592e9fdf5a4716-EWR',
 32 verbose headers   etag: '"38e05bcdde596190baf9d086669eb337"',
 32 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 32 verbose headers   'last-modified': 'Sun, 27 May 2018 12:09:41 GMT',
 32 verbose headers   vary: 'accept-encoding, accept',
 32 verbose headers   server: 'cloudflare' }
 33 silly get cb [ 304,
-33 silly get   { date: 'Tue, 04 Dec 2018 16:16:38 GMT',
+33 silly get   { date: 'Fri, 07 Dec 2018 18:51:11 GMT',
 33 silly get     connection: 'keep-alive',
-33 silly get     'set-cookie': [ '__cfduid=db0a9bbc7b6d957dbf05a0922b339f9a31543940198; expires=Wed, 04-Dec-19 16:16:38 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-33 silly get     'cf-cache-status': 'HIT',
+33 silly get     'set-cookie': [ '__cfduid=d335e504c4d53599c6a94680626aea1281544208670; expires=Sat, 07-Dec-19 18:51:10 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+33 silly get     'cf-cache-status': 'REVALIDATED',
 33 silly get     'cache-control': 'max-age=300',
-33 silly get     'cf-ray': '483f94200d225a74-BOS',
+33 silly get     'cf-ray': '48592e9fdf5a4716-EWR',
 33 silly get     etag: '"38e05bcdde596190baf9d086669eb337"',
 33 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 33 silly get     'last-modified': 'Sun, 27 May 2018 12:09:41 GMT',
@@ -125,17 +125,17 @@
 60 silly mapToRegistry uri https://registry.npmjs.org/fsevents
 61 verbose request uri https://registry.npmjs.org/fsevents
 62 verbose request no auth needed
-63 info attempt registry request try #1 at 11:16:39 AM
+63 info attempt registry request try #1 at 1:51:12 PM
 64 verbose etag W/"94480a4c3ff309413d370aa1d873e37c"
 65 verbose lastModified Sat, 10 Nov 2018 14:25:31 GMT
 66 http request GET https://registry.npmjs.org/fsevents
 67 http 304 https://registry.npmjs.org/fsevents
-68 verbose headers { date: 'Tue, 04 Dec 2018 16:16:38 GMT',
+68 verbose headers { date: 'Fri, 07 Dec 2018 18:51:11 GMT',
 68 verbose headers   connection: 'keep-alive',
-68 verbose headers   'set-cookie': [ '__cfduid=de4a2eced5ef36b1eba5700cdad3b75231543940198; expires=Wed, 04-Dec-19 16:16:38 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+68 verbose headers   'set-cookie': [ '__cfduid=d47535324fc1bf222db7c3c5acf3d67611544208671; expires=Sat, 07-Dec-19 18:51:11 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 68 verbose headers   'cf-cache-status': 'HIT',
 68 verbose headers   'cache-control': 'max-age=300',
-68 verbose headers   'cf-ray': '483f9421bf7a5a3e-BOS',
+68 verbose headers   'cf-ray': '48592ea48c4cc5de-EWR',
 68 verbose headers   etag: '"94480a4c3ff309413d370aa1d873e37c"',
 68 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 68 verbose headers   'last-modified': 'Sat, 10 Nov 2018 14:25:31 GMT',
@@ -143,12 +143,12 @@
 68 verbose headers   'x-amz-meta-rev': '91-405cb71eb3ad14f143c4a6775c2b43b9',
 68 verbose headers   server: 'cloudflare' }
 69 silly get cb [ 304,
-69 silly get   { date: 'Tue, 04 Dec 2018 16:16:38 GMT',
+69 silly get   { date: 'Fri, 07 Dec 2018 18:51:11 GMT',
 69 silly get     connection: 'keep-alive',
-69 silly get     'set-cookie': [ '__cfduid=de4a2eced5ef36b1eba5700cdad3b75231543940198; expires=Wed, 04-Dec-19 16:16:38 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+69 silly get     'set-cookie': [ '__cfduid=d47535324fc1bf222db7c3c5acf3d67611544208671; expires=Sat, 07-Dec-19 18:51:11 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 69 silly get     'cf-cache-status': 'HIT',
 69 silly get     'cache-control': 'max-age=300',
-69 silly get     'cf-ray': '483f9421bf7a5a3e-BOS',
+69 silly get     'cf-ray': '48592ea48c4cc5de-EWR',
 69 silly get     etag: '"94480a4c3ff309413d370aa1d873e37c"',
 69 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 69 silly get     'last-modified': 'Sat, 10 Nov 2018 14:25:31 GMT',
@@ -182,23 +182,23 @@
 84 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
 85 verbose request uri https://registry.npmjs.org/libpq
 86 verbose request no auth needed
-87 info attempt registry request try #1 at 11:16:39 AM
+87 info attempt registry request try #1 at 1:51:13 PM
 88 verbose etag W/"0f20610cddf8f7280fa648559c6d7990"
 89 verbose lastModified Sun, 27 May 2018 06:42:56 GMT
 90 http request GET https://registry.npmjs.org/libpq
 91 verbose request uri https://registry.npmjs.org/readable-stream
 92 verbose request no auth needed
-93 info attempt registry request try #1 at 11:16:39 AM
+93 info attempt registry request try #1 at 1:51:13 PM
 94 verbose etag W/"5d7939c72a9fe5fad75bd93411833b3a"
 95 verbose lastModified Tue, 02 Oct 2018 20:43:35 GMT
 96 http request GET https://registry.npmjs.org/readable-stream
 97 http 304 https://registry.npmjs.org/readable-stream
-98 verbose headers { date: 'Tue, 04 Dec 2018 16:16:38 GMT',
+98 verbose headers { date: 'Fri, 07 Dec 2018 18:51:11 GMT',
 98 verbose headers   connection: 'keep-alive',
-98 verbose headers   'set-cookie': [ '__cfduid=d894408772254120f834c6a686354e58f1543940198; expires=Wed, 04-Dec-19 16:16:38 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+98 verbose headers   'set-cookie': [ '__cfduid=d506e32769ec3a6c04cab3f5fe2a5dd901544208671; expires=Sat, 07-Dec-19 18:51:11 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 98 verbose headers   'cf-cache-status': 'HIT',
 98 verbose headers   'cache-control': 'max-age=300',
-98 verbose headers   'cf-ray': '483f942348a25a80-BOS',
+98 verbose headers   'cf-ray': '48592ea74b38471c-EWR',
 98 verbose headers   etag: '"5d7939c72a9fe5fad75bd93411833b3a"',
 98 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 98 verbose headers   'last-modified': 'Tue, 02 Oct 2018 20:43:35 GMT',
@@ -206,12 +206,12 @@
 98 verbose headers   'x-amz-meta-rev': '200-05bf28546589bcaf66529dc3d7bb9e9b',
 98 verbose headers   server: 'cloudflare' }
 99 silly get cb [ 304,
-99 silly get   { date: 'Tue, 04 Dec 2018 16:16:38 GMT',
+99 silly get   { date: 'Fri, 07 Dec 2018 18:51:11 GMT',
 99 silly get     connection: 'keep-alive',
-99 silly get     'set-cookie': [ '__cfduid=d894408772254120f834c6a686354e58f1543940198; expires=Wed, 04-Dec-19 16:16:38 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+99 silly get     'set-cookie': [ '__cfduid=d506e32769ec3a6c04cab3f5fe2a5dd901544208671; expires=Sat, 07-Dec-19 18:51:11 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 99 silly get     'cf-cache-status': 'HIT',
 99 silly get     'cache-control': 'max-age=300',
-99 silly get     'cf-ray': '483f942348a25a80-BOS',
+99 silly get     'cf-ray': '48592ea74b38471c-EWR',
 99 silly get     etag: '"5d7939c72a9fe5fad75bd93411833b3a"',
 99 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 99 silly get     'last-modified': 'Tue, 02 Oct 2018 20:43:35 GMT',
@@ -242,24 +242,24 @@
 115 verbose afterAdd C:\Users\wfv4\AppData\Roaming\npm-cache\readable-stream\1.0.31\package\package.json not in flight; writing
 116 verbose afterAdd C:\Users\wfv4\AppData\Roaming\npm-cache\readable-stream\1.0.31\package\package.json written
 117 http 304 https://registry.npmjs.org/libpq
-118 verbose headers { date: 'Tue, 04 Dec 2018 16:16:38 GMT',
+118 verbose headers { date: 'Fri, 07 Dec 2018 18:51:12 GMT',
 118 verbose headers   connection: 'keep-alive',
-118 verbose headers   'set-cookie': [ '__cfduid=d742546a35e48c4e94cabdbcfe3951dbd1543940198; expires=Wed, 04-Dec-19 16:16:38 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-118 verbose headers   'cf-cache-status': 'HIT',
+118 verbose headers   'set-cookie': [ '__cfduid=dc60ebb7b6eb6e865396eeefdbb8fac651544208671; expires=Sat, 07-Dec-19 18:51:11 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+118 verbose headers   'cf-cache-status': 'REVALIDATED',
 118 verbose headers   'cache-control': 'max-age=300',
-118 verbose headers   'cf-ray': '483f942358675a44-BOS',
+118 verbose headers   'cf-ray': '48592ea73b564716-EWR',
 118 verbose headers   etag: '"0f20610cddf8f7280fa648559c6d7990"',
 118 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 118 verbose headers   'last-modified': 'Sun, 27 May 2018 06:42:56 GMT',
 118 verbose headers   vary: 'accept-encoding, accept',
 118 verbose headers   server: 'cloudflare' }
 119 silly get cb [ 304,
-119 silly get   { date: 'Tue, 04 Dec 2018 16:16:38 GMT',
+119 silly get   { date: 'Fri, 07 Dec 2018 18:51:12 GMT',
 119 silly get     connection: 'keep-alive',
-119 silly get     'set-cookie': [ '__cfduid=d742546a35e48c4e94cabdbcfe3951dbd1543940198; expires=Wed, 04-Dec-19 16:16:38 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-119 silly get     'cf-cache-status': 'HIT',
+119 silly get     'set-cookie': [ '__cfduid=dc60ebb7b6eb6e865396eeefdbb8fac651544208671; expires=Sat, 07-Dec-19 18:51:11 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+119 silly get     'cf-cache-status': 'REVALIDATED',
 119 silly get     'cache-control': 'max-age=300',
-119 silly get     'cf-ray': '483f942358675a44-BOS',
+119 silly get     'cf-ray': '48592ea73b564716-EWR',
 119 silly get     etag: '"0f20610cddf8f7280fa648559c6d7990"',
 119 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 119 silly get     'last-modified': 'Sun, 27 May 2018 06:42:56 GMT',
@@ -344,23 +344,23 @@
 151 silly mapToRegistry uri https://registry.npmjs.org/bindings
 152 verbose request uri https://registry.npmjs.org/bindings
 153 verbose request no auth needed
-154 info attempt registry request try #1 at 11:16:39 AM
+154 info attempt registry request try #1 at 1:51:13 PM
 155 verbose etag W/"b8c1052768a277c6904d523ba8ff7b9e"
 156 verbose lastModified Mon, 26 Nov 2018 20:49:32 GMT
 157 http request GET https://registry.npmjs.org/bindings
 158 verbose request uri https://registry.npmjs.org/nan
 159 verbose request no auth needed
-160 info attempt registry request try #1 at 11:16:39 AM
+160 info attempt registry request try #1 at 1:51:13 PM
 161 verbose etag W/"d3fbf46e08c4ad5dee07ffa0e4dac254"
 162 verbose lastModified Sat, 29 Sep 2018 08:09:58 GMT
 163 http request GET https://registry.npmjs.org/nan
 164 http 304 https://registry.npmjs.org/nan
-165 verbose headers { date: 'Tue, 04 Dec 2018 16:16:39 GMT',
+165 verbose headers { date: 'Fri, 07 Dec 2018 18:51:12 GMT',
 165 verbose headers   connection: 'keep-alive',
-165 verbose headers   'set-cookie': [ '__cfduid=d7c97fc920d7796b7aa6a0122e2676add1543940199; expires=Wed, 04-Dec-19 16:16:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+165 verbose headers   'set-cookie': [ '__cfduid=d6741253c149685ecb1ffed8b94305de41544208672; expires=Sat, 07-Dec-19 18:51:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 165 verbose headers   'cf-cache-status': 'HIT',
 165 verbose headers   'cache-control': 'max-age=300',
-165 verbose headers   'cf-ray': '483f94241e3b5a56-BOS',
+165 verbose headers   'cf-ray': '48592eaaebef21e0-EWR',
 165 verbose headers   etag: '"d3fbf46e08c4ad5dee07ffa0e4dac254"',
 165 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 165 verbose headers   'last-modified': 'Sat, 29 Sep 2018 08:09:58 GMT',
@@ -368,12 +368,12 @@
 165 verbose headers   'x-amz-meta-rev': '180-441181393e8d445d77f4ad350b41dd1c',
 165 verbose headers   server: 'cloudflare' }
 166 silly get cb [ 304,
-166 silly get   { date: 'Tue, 04 Dec 2018 16:16:39 GMT',
+166 silly get   { date: 'Fri, 07 Dec 2018 18:51:12 GMT',
 166 silly get     connection: 'keep-alive',
-166 silly get     'set-cookie': [ '__cfduid=d7c97fc920d7796b7aa6a0122e2676add1543940199; expires=Wed, 04-Dec-19 16:16:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+166 silly get     'set-cookie': [ '__cfduid=d6741253c149685ecb1ffed8b94305de41544208672; expires=Sat, 07-Dec-19 18:51:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 166 silly get     'cf-cache-status': 'HIT',
 166 silly get     'cache-control': 'max-age=300',
-166 silly get     'cf-ray': '483f94241e3b5a56-BOS',
+166 silly get     'cf-ray': '48592eaaebef21e0-EWR',
 166 silly get     etag: '"d3fbf46e08c4ad5dee07ffa0e4dac254"',
 166 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 166 silly get     'last-modified': 'Sat, 29 Sep 2018 08:09:58 GMT',
@@ -383,12 +383,12 @@
 167 verbose etag https://registry.npmjs.org/nan from cache
 168 verbose get saving nan to C:\Users\wfv4\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
 169 http 304 https://registry.npmjs.org/bindings
-170 verbose headers { date: 'Tue, 04 Dec 2018 16:16:39 GMT',
+170 verbose headers { date: 'Fri, 07 Dec 2018 18:51:12 GMT',
 170 verbose headers   connection: 'keep-alive',
-170 verbose headers   'set-cookie': [ '__cfduid=dcd51aed1850226514f79e1e9c24d13e61543940199; expires=Wed, 04-Dec-19 16:16:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+170 verbose headers   'set-cookie': [ '__cfduid=d04e47934052ccc575a395a7a90d7d6361544208672; expires=Sat, 07-Dec-19 18:51:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 170 verbose headers   'cf-cache-status': 'HIT',
 170 verbose headers   'cache-control': 'max-age=300',
-170 verbose headers   'cf-ray': '483f9424083c5a38-BOS',
+170 verbose headers   'cf-ray': '48592eaaefe921ec-EWR',
 170 verbose headers   etag: '"b8c1052768a277c6904d523ba8ff7b9e"',
 170 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 170 verbose headers   'last-modified': 'Mon, 26 Nov 2018 20:49:32 GMT',
@@ -396,12 +396,12 @@
 170 verbose headers   'x-amz-meta-rev': '63-6045453ca472ec828606806c96048db9',
 170 verbose headers   server: 'cloudflare' }
 171 silly get cb [ 304,
-171 silly get   { date: 'Tue, 04 Dec 2018 16:16:39 GMT',
+171 silly get   { date: 'Fri, 07 Dec 2018 18:51:12 GMT',
 171 silly get     connection: 'keep-alive',
-171 silly get     'set-cookie': [ '__cfduid=dcd51aed1850226514f79e1e9c24d13e61543940199; expires=Wed, 04-Dec-19 16:16:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+171 silly get     'set-cookie': [ '__cfduid=d04e47934052ccc575a395a7a90d7d6361544208672; expires=Sat, 07-Dec-19 18:51:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 171 silly get     'cf-cache-status': 'HIT',
 171 silly get     'cache-control': 'max-age=300',
-171 silly get     'cf-ray': '483f9424083c5a38-BOS',
+171 silly get     'cf-ray': '48592eaaefe921ec-EWR',
 171 silly get     etag: '"b8c1052768a277c6904d523ba8ff7b9e"',
 171 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 171 silly get     'last-modified': 'Mon, 26 Nov 2018 20:49:32 GMT',
@@ -537,17 +537,17 @@
 213 silly mapToRegistry uri https://registry.npmjs.org/string_decoder
 214 verbose request uri https://registry.npmjs.org/string_decoder
 215 verbose request no auth needed
-216 info attempt registry request try #1 at 11:16:39 AM
+216 info attempt registry request try #1 at 1:51:14 PM
 217 verbose etag W/"0f2e6448da65699e982bdc0870cc122b"
 218 verbose lastModified Tue, 27 Nov 2018 15:38:04 GMT
 219 http request GET https://registry.npmjs.org/string_decoder
 220 http 304 https://registry.npmjs.org/string_decoder
-221 verbose headers { date: 'Tue, 04 Dec 2018 16:16:39 GMT',
+221 verbose headers { date: 'Fri, 07 Dec 2018 18:51:12 GMT',
 221 verbose headers   connection: 'keep-alive',
-221 verbose headers   'set-cookie': [ '__cfduid=d1377987e4f71509eb052770c451868721543940199; expires=Wed, 04-Dec-19 16:16:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+221 verbose headers   'set-cookie': [ '__cfduid=d58f7b9958e0e0e5c3c88280e8d63daed1544208672; expires=Sat, 07-Dec-19 18:51:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 221 verbose headers   'cf-cache-status': 'HIT',
 221 verbose headers   'cache-control': 'max-age=300',
-221 verbose headers   'cf-ray': '483f9424ef705a2c-BOS',
+221 verbose headers   'cf-ray': '48592eac7906c5de-EWR',
 221 verbose headers   etag: '"0f2e6448da65699e982bdc0870cc122b"',
 221 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 221 verbose headers   'last-modified': 'Tue, 27 Nov 2018 15:38:04 GMT',
@@ -555,12 +555,12 @@
 221 verbose headers   'x-amz-meta-rev': '41-2d71dd338b153e6e5ec997a28f387122',
 221 verbose headers   server: 'cloudflare' }
 222 silly get cb [ 304,
-222 silly get   { date: 'Tue, 04 Dec 2018 16:16:39 GMT',
+222 silly get   { date: 'Fri, 07 Dec 2018 18:51:12 GMT',
 222 silly get     connection: 'keep-alive',
-222 silly get     'set-cookie': [ '__cfduid=d1377987e4f71509eb052770c451868721543940199; expires=Wed, 04-Dec-19 16:16:39 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+222 silly get     'set-cookie': [ '__cfduid=d58f7b9958e0e0e5c3c88280e8d63daed1544208672; expires=Sat, 07-Dec-19 18:51:12 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 222 silly get     'cf-cache-status': 'HIT',
 222 silly get     'cache-control': 'max-age=300',
-222 silly get     'cf-ray': '483f9424ef705a2c-BOS',
+222 silly get     'cf-ray': '48592eac7906c5de-EWR',
 222 silly get     etag: '"0f2e6448da65699e982bdc0870cc122b"',
 222 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 222 silly get     'last-modified': 'Tue, 27 Nov 2018 15:38:04 GMT',
@@ -3299,50 +3299,50 @@
 328 silly extract pg-native
 329 verbose unbuild node_modules\.staging\nan-a4c077d13e4165f502d5a674be108760
 330 verbose unbuild node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc
-331 verbose unbuild node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d
-332 verbose unbuild node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f
+331 verbose unbuild node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f
+332 verbose unbuild node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d
 333 verbose unbuild node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6
 334 verbose unbuild node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a
 335 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-a4c077d13e4165f502d5a674be108760 is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
 336 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
-337 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
-338 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
+337 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
+338 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
 339 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-a4c077d13e4165f502d5a674be108760
 340 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc
-341 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d
-342 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f
-343 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6 is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
-344 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
+341 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6 is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
+342 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a is being purged from base C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day
+343 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f
+344 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d
 345 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\nan\2.11.1\package.tgz
 346 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-a4c077d13e4165f502d5a674be108760
 347 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-a4c077d13e4165f502d5a674be108760 is being purged
 348 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\libpq\1.8.8\package.tgz
 349 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc
 350 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc is being purged
-351 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
-352 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d
-353 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d is being purged
-354 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\string_decoder\0.10.31\package.tgz
-355 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f
-356 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f is being purged
-357 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6
-358 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a
+351 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6
+352 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a
+353 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\string_decoder\0.10.31\package.tgz
+354 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f
+355 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f is being purged
+356 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+357 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d
+358 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d is being purged
 359 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\nan-a4c077d13e4165f502d5a674be108760
 360 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc
-361 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d
-362 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f
-363 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\pg-native\3.0.0\package.tgz
-364 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6
-365 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6 is being purged
-366 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\readable-stream\1.0.31\package.tgz
-367 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a
-368 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a is being purged
+361 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\pg-native\3.0.0\package.tgz
+362 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6
+363 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6 is being purged
+364 verbose tar unpack C:\Users\wfv4\AppData\Roaming\npm-cache\readable-stream\1.0.31\package.tgz
+365 verbose tar unpacking to C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a
+366 silly gentlyRm C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a is being purged
+367 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\string_decoder-76cdbb97a0d31973b7ca33d2f308481f
+368 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\bindings-50017e8e600add9c1bd904d895217d1d
 369 silly gunzTarPerm modes [ '777', '666' ]
 370 silly gunzTarPerm modes [ '777', '666' ]
-371 silly gunzTarPerm modes [ '777', '666' ]
-372 silly gunzTarPerm modes [ '777', '666' ]
-373 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6
-374 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a
+371 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\pg-native-1b0be07b4754ffbbcfc1bdd3f76caac6
+372 verbose gentlyRm don't care about contents; nuking C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\readable-stream-2b60d371b65937fe0bc3844d54c4251a
+373 silly gunzTarPerm modes [ '777', '666' ]
+374 silly gunzTarPerm modes [ '777', '666' ]
 375 silly gunzTarPerm modes [ '777', '666' ]
 376 silly gunzTarPerm modes [ '777', '666' ]
 377 silly gunzTarPerm extractEntry package.json
@@ -3350,33 +3350,33 @@
 379 silly gunzTarPerm extractEntry package.json
 380 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
 381 silly gunzTarPerm extractEntry package.json
-382 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+382 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
 383 silly gunzTarPerm extractEntry package.json
-384 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+384 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
 385 silly gunzTarPerm extractEntry package.json
 386 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
 387 silly gunzTarPerm extractEntry package.json
 388 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
 389 silly gunzTarPerm extractEntry CHANGELOG.md
 390 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
-391 silly gunzTarPerm extractEntry include_dirs.js
-392 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
-393 silly gunzTarPerm extractEntry .npmignore
-394 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+391 silly gunzTarPerm extractEntry .travis.yml
+392 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+393 silly gunzTarPerm extractEntry binding.gyp
+394 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 438 ]
 395 silly gunzTarPerm extractEntry README.md
-396 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
-397 silly gunzTarPerm extractEntry .travis.yml
-398 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
-399 silly gunzTarPerm extractEntry binding.gyp
-400 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 438 ]
-401 silly gunzTarPerm extractEntry README.md
-402 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
-403 silly gunzTarPerm extractEntry bindings.js
-404 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
-405 silly gunzTarPerm extractEntry .eslintrc
-406 silly gunzTarPerm modified mode [ '.eslintrc', 436, 438 ]
-407 silly gunzTarPerm extractEntry .travis.yml
-408 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+396 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+397 silly gunzTarPerm extractEntry bindings.js
+398 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+399 silly gunzTarPerm extractEntry .eslintrc
+400 silly gunzTarPerm modified mode [ '.eslintrc', 436, 438 ]
+401 silly gunzTarPerm extractEntry .travis.yml
+402 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+403 silly gunzTarPerm extractEntry .npmignore
+404 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+405 silly gunzTarPerm extractEntry README.md
+406 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+407 silly gunzTarPerm extractEntry include_dirs.js
+408 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
 409 silly gunzTarPerm extractEntry .npmignore
 410 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
 411 silly gunzTarPerm extractEntry README.md
@@ -3453,14 +3453,14 @@
 482 silly gunzTarPerm modified mode [ 'test/sync-prepare.js', 436, 438 ]
 483 silly gunzTarPerm extractEntry test/sync.js
 484 silly gunzTarPerm modified mode [ 'test/sync.js', 436, 438 ]
-485 silly gunzTarPerm extractEntry LICENSE
-486 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
-487 silly gunzTarPerm extractEntry index.js
-488 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
-489 silly gunzTarPerm extractEntry index.js
-490 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
-491 silly gunzTarPerm extractEntry Makefile
-492 silly gunzTarPerm modified mode [ 'Makefile', 436, 438 ]
+485 silly gunzTarPerm extractEntry index.js
+486 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+487 silly gunzTarPerm extractEntry Makefile
+488 silly gunzTarPerm modified mode [ 'Makefile', 436, 438 ]
+489 silly gunzTarPerm extractEntry LICENSE
+490 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+491 silly gunzTarPerm extractEntry index.js
+492 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
 493 silly gunzTarPerm extractEntry LICENSE
 494 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
 495 silly gunzTarPerm extractEntry transform.js
@@ -3712,7 +3712,7 @@
 741 silly install libpq C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.staging\libpq-0118edb5c0b78428d30f60000ada71fc
 742 info lifecycle libpq@1.8.8~install: libpq@1.8.8
 743 verbose lifecycle libpq@1.8.8~install: unsafe-perm in lifecycle true
-744 verbose lifecycle libpq@1.8.8~install: PATH: C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Web\External\node_modules\npm\bin\node-gyp-bin;C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\libpq\node_modules\.bin;C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.bin;.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Web\External;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Common Files\ThinPrint\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\wfv4\AppData\Local\Microsoft\WindowsApps;C:\Users\wfv4\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Users\wfv4\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
+744 verbose lifecycle libpq@1.8.8~install: PATH: C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Web\External\node_modules\npm\bin\node-gyp-bin;C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\libpq\node_modules\.bin;C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\.bin;.\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Web\External;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Common Files\ThinPrint\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\wfv4\AppData\Local\Microsoft\WindowsApps;C:\Users\wfv4\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Users\wfv4\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\mingw32\bin
 745 verbose lifecycle libpq@1.8.8~install: CWD: C:\Users\wfv4\Documents\GitHub\eventbrite-clone-regal-day-master\eventbrite-clone-regal-day\node_modules\libpq
 746 silly lifecycle libpq@1.8.8~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
 747 silly lifecycle libpq@1.8.8~install: Returned: code: 1  signal: null
