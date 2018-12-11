@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Events | PartyOn" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="eventbrite_regal_day.Events.Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="eventbrite_regal_day.Event.Default" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     <script>

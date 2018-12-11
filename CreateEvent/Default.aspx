@@ -73,63 +73,71 @@
 
             <div class="form-row">
                 <div class="col-md-4 mb-2">
-                    <div style="float:left;"><asp:TextBox ID="txtEventDate" runat="server" placeholder="Event Date" CssClass="form-control"></asp:TextBox></div>
-                    <div style="float:left;"><asp:DropDownList ID="ddlTime" runat="server" CssClass="form-control">
-                        <asp:ListItem>12:00 AM</asp:ListItem>
-                        <asp:ListItem>12:30 AM</asp:ListItem>
-                        <asp:ListItem Value="01:00 AM">1:00 AM</asp:ListItem>
-                        <asp:ListItem Value="01:30 AM">1:30 AM</asp:ListItem>
-                        <asp:ListItem Value="02:00 AM">2:00 AM</asp:ListItem>
-                        <asp:ListItem Value="02:30 AM">2:30 AM</asp:ListItem>
-                        <asp:ListItem Value="03:00 AM">3:00 AM</asp:ListItem>
-                        <asp:ListItem Value="03:30 AM">3:30 AM</asp:ListItem>
-                        <asp:ListItem Value="04:00 AM">4:00 AM</asp:ListItem>
-                        <asp:ListItem Value="04:30 AM">4:30 AM</asp:ListItem>
-                        <asp:ListItem Value="05:00 AM">5:00 AM</asp:ListItem>
-                        <asp:ListItem Value="05:30 AM">5:30 AM</asp:ListItem>
-                        <asp:ListItem Value="06:00 AM">6:00 AM</asp:ListItem>
-                        <asp:ListItem Value="06:30 AM">6:30 AM</asp:ListItem>
-                        <asp:ListItem Value="07:00 AM">7:00 AM</asp:ListItem>
-                        <asp:ListItem Value="07:30 AM">7:30 AM</asp:ListItem>
-                        <asp:ListItem Value="08:00 AM">8:00 AM</asp:ListItem>
-                        <asp:ListItem Value="08:30 AM">8:30 AM</asp:ListItem>
-                        <asp:ListItem Value="09:00 AM">9:00 AM</asp:ListItem>
-                        <asp:ListItem Value="09:30 AM">9:30 AM</asp:ListItem>
-                        <asp:ListItem>10:00 AM</asp:ListItem>
-                        <asp:ListItem>10:30 AM</asp:ListItem>
-                        <asp:ListItem>11:00 AM</asp:ListItem>
-                        <asp:ListItem>11:30 AM</asp:ListItem>
-                        <asp:ListItem>12:00 PM</asp:ListItem>
-                        <asp:ListItem>12:30 PM</asp:ListItem>
-                        <asp:ListItem Value="01:00 PM">1:00 PM</asp:ListItem>
-                        <asp:ListItem Value="01:30 PM">1:30 PM</asp:ListItem>
-                        <asp:ListItem Value="02:00 PM">2:00 PM</asp:ListItem>
-                        <asp:ListItem Value="02:30 PM">2:30 PM</asp:ListItem>
-                        <asp:ListItem Value="03:00 PM">3:00 PM</asp:ListItem>
-                        <asp:ListItem Value="03:30 PM">3:30 PM</asp:ListItem>
-                        <asp:ListItem Value="04:00 PM">4:00 PM</asp:ListItem>
-                        <asp:ListItem Value="04:30 PM">4:30 PM</asp:ListItem>
-                        <asp:ListItem Value="05:00 PM">5:00 PM</asp:ListItem>
-                        <asp:ListItem Value="05:30 PM">5:30 PM</asp:ListItem>
-                        <asp:ListItem Value="06:00 PM">6:00 PM</asp:ListItem>
-                        <asp:ListItem Value="06:30 PM">6:30 PM</asp:ListItem>
-                        <asp:ListItem Value="07:00 PM">7:00 PM</asp:ListItem>
-                        <asp:ListItem Value="07:30 PM">7:30 PM</asp:ListItem>
-                        <asp:ListItem Value="08:00 PM">8:00 PM</asp:ListItem>
-                        <asp:ListItem Value="08:30 PM">8:30 PM</asp:ListItem>
-                        <asp:ListItem Value="09:00 PM">9:00 PM</asp:ListItem>
-                        <asp:ListItem Value="09:30 PM">9:30 PM</asp:ListItem>
-                        <asp:ListItem>10:00 PM</asp:ListItem>
-                        <asp:ListItem>10:30 PM</asp:ListItem>
-                        <asp:ListItem>11:00 PM</asp:ListItem>
-                        <asp:ListItem>11:30 PM</asp:ListItem>
-                    </asp:DropDownList></div>
-                    <div style="clear:left;"></div>
-                    <ajaxToolkit:CalendarExtender runat="server" TargetControlID="txtEventDate" ID="ceEventDate" Format="MM/dd/yyyy" />
-                    <asp:RequiredFieldValidator SetFocusOnError="true" ID="rqEventDate" runat="server" ErrorMessage="Please enter an event date" ControlToValidate="txtEventDate" Display="None"></asp:RequiredFieldValidator>
-                    <ajaxToolkit:ValidatorCalloutExtender CssClass="CustomValidator" runat="Server" ID="Validatorcalloutextender1" TargetControlID="rqEventDate" HighlightCssClass="highlight" WarningIconImageUrl="../img/ValidatorCallout/alert-small.gif" CloseImageUrl="../img/ValidatorCallout/close.gif" />
-                    <asp:RegularExpressionValidator SetFocusOnError="true" ID="rejexEventDate" runat="server" ErrorMessage="Enter the date in the correct format." ControlToValidate="txtEventDate" Display="None" ValidationExpression="^(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d$"></asp:RegularExpressionValidator>
-                    <ajaxToolkit:ValidatorCalloutExtender CssClass="CustomValidator" runat="Server" ID="vcerejexEventDate" TargetControlID="rejexEventDate" HighlightCssClass="highlight" WarningIconImageUrl="../img/ValidatorCallout/alert-small.gif" CloseImageUrl="../img/ValidatorCallout/close.gif" />
+                    <div style="float:left;">
+                        Yr<br />
+                        <asp:DropDownList ID="ddlYear" runat="server">
+                            <asp:ListItem>2018</asp:ListItem>
+                            <asp:ListItem>2019</asp:ListItem>
+                        </asp:DropDownList>
+                    </div>
+                    <div style="float:left;">
+                        Mo<br />
+                        <asp:DropDownList ID="ddlMonth" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlMonth_SelectedIndexChanged">
+                            <asp:ListItem>1</asp:ListItem>
+                            <asp:ListItem>2</asp:ListItem>
+                            <asp:ListItem>3</asp:ListItem>
+                            <asp:ListItem>4</asp:ListItem>
+                            <asp:ListItem>5</asp:ListItem>
+                            <asp:ListItem>6</asp:ListItem>
+                            <asp:ListItem>7</asp:ListItem>
+                            <asp:ListItem>8</asp:ListItem>
+                            <asp:ListItem>9</asp:ListItem>
+                            <asp:ListItem>10</asp:ListItem>
+                            <asp:ListItem>11</asp:ListItem>
+                            <asp:ListItem>12</asp:ListItem>
+                        </asp:DropDownList>
+                    </div>
+                    <div style="float:left;">
+                        Day<br />
+                        <asp:DropDownList ID="ddlDay" runat="server">
+                            <asp:ListItem>1</asp:ListItem>
+                        </asp:DropDownList>
+                    </div>
+                    <div style="float:left;">
+                        Hr<br />
+                        <asp:DropDownList ID="ddlHour" runat="server">
+                            <asp:ListItem>1</asp:ListItem>
+                            <asp:ListItem>2</asp:ListItem>
+                            <asp:ListItem>3</asp:ListItem>
+                            <asp:ListItem>4</asp:ListItem>
+                            <asp:ListItem>5</asp:ListItem>
+                            <asp:ListItem>6</asp:ListItem>
+                            <asp:ListItem>7</asp:ListItem>
+                            <asp:ListItem>8</asp:ListItem>
+                            <asp:ListItem>9</asp:ListItem>
+                            <asp:ListItem>10</asp:ListItem>
+                            <asp:ListItem>11</asp:ListItem>
+                            <asp:ListItem>12</asp:ListItem>
+                            <asp:ListItem>13</asp:ListItem>
+                            <asp:ListItem>14</asp:ListItem>
+                            <asp:ListItem>15</asp:ListItem>
+                            <asp:ListItem>16</asp:ListItem>
+                            <asp:ListItem>17</asp:ListItem>
+                            <asp:ListItem>18</asp:ListItem>
+                            <asp:ListItem>19</asp:ListItem>
+                            <asp:ListItem>20</asp:ListItem>
+                            <asp:ListItem>21</asp:ListItem>
+                            <asp:ListItem>22</asp:ListItem>
+                            <asp:ListItem>23</asp:ListItem>
+                        </asp:DropDownList>
+                    </div>
+                    <div style="float:left;">
+                        Min<br />
+                        <asp:DropDownList ID="ddlMinute" runat="server">
+                            <asp:ListItem>00</asp:ListItem>
+                            <asp:ListItem>30</asp:ListItem>
+                        </asp:DropDownList>
+                    </div>
                 </div>
             </div>
 

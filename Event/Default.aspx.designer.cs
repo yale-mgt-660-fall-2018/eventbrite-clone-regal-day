@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace eventbrite_regal_day.Events {
+namespace eventbrite_regal_day.Event {
     
     
     public partial class Default {

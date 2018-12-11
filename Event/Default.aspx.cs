@@ -9,7 +9,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace eventbrite_regal_day.Events
+namespace eventbrite_regal_day.Event
 {
     public partial class Default : System.Web.UI.Page
     {
@@ -31,7 +31,7 @@ namespace eventbrite_regal_day.Events
                 string EventID = "1";
                 if (Request.QueryString["EventID"] != null)
                     EventID = Request.QueryString["EventID"];
-                
+
                 ViewState["EventID"] = Request.QueryString["EventID"];
                 using (SqlDataReader objReader = objController.Event_Get(UserID, Request.QueryString["EventID"]))
                 {
@@ -78,7 +78,7 @@ namespace eventbrite_regal_day.Events
 
         protected void lnkDonate_Click(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

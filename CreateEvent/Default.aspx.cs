@@ -27,6 +27,18 @@ namespace eventbrite_regal_day.CreateEvent
 
             if (!IsPostBack)
             {
+                int[] months = new int[] { 31, 28, 31, 30, 31, 30, 31, 30, 30, 31, 30, 31 };
+                if (Convert.ToInt16(ddlYear.SelectedValue) % 4 == 0)
+                    months[1] = 29;
+
+                ddlDay.SelectedIndex = -1;
+                ddlDay.Items.Clear();
+
+                for (int i = 1; i <= months[Convert.ToInt16(ddlMonth.SelectedValue) - 1]; i++)
+                {
+                    ddlDay.Items.Add(i.ToString());
+                }
+
                 if (Request.QueryString["EventID"] != null)
                 {
                     ((Literal)Master.FindControl("litH1")).Text = "Edit the Event";
@@ -37,7 +49,14 @@ namespace eventbrite_regal_day.CreateEvent
                         if (objReader.Read())
                         {
                             txtEventName.Text = objReader["EventName"].ToString();
-                            txtEventDate.Text = Convert.ToDateTime(objReader["EventDate"]).ToString("MM/dd/yyyy");
+                            DateTime thedate = Convert.ToDateTime(objReader["EventDate"]);
+
+                            ddlYear.SelectedValue = thedate.Year.ToString();
+                            ddlMonth.SelectedValue = thedate.Month.ToString();
+                            ddlDay.SelectedValue = thedate.Day.ToString();
+                            ddlHour.SelectedValue = thedate.Hour.ToString();
+                            ddlMinute.SelectedValue = (thedate.Minute == 0 ? "00" : "30");
+
                             txtLocation.Text = objReader["Location"].ToString();
                             txtOrganizerEmail.Text = objReader["OrganizerEmail"].ToString();
                             txtDescription.Text = objReader["Description"].ToString();
@@ -61,11 +80,11 @@ namespace eventbrite_regal_day.CreateEvent
                 System.Drawing.Image imag = System.Drawing.Image.FromStream(FileUpload1.PostedFile.InputStream);
                 byte[] image = ConvertImageToByteArray(imag, System.Drawing.Imaging.ImageFormat.Jpeg);
                 //byte[] image = client.DownloadData(imgEventImage.ImageUrl);
-                objController.Event_Add(UserID, Convert.ToInt32(ViewState["EventID"]), txtEventName.Text, txtEventDate.Text + " " + ddlTime.Text, txtLocation.Text, txtOrganizerEmail.Text, txtDescription.Text, image);
+                objController.Event_Add(UserID, Convert.ToInt32(ViewState["EventID"]), txtEventName.Text, ddlMonth.Text + "/" + ddlDay.Text + "/" + ddlYear.Text + " " + ddlHour.Text + ":" + ddlMinute.Text + ":00", txtLocation.Text, txtOrganizerEmail.Text, txtDescription.Text, image);
             }
             catch {
                 if (Convert.ToInt32(ViewState["EventID"]) != 0)
-                    objController.Event_Update(UserID, Convert.ToInt32(ViewState["EventID"]), txtEventName.Text, txtEventDate.Text + " " + ddlTime.Text, txtLocation.Text, txtOrganizerEmail.Text, txtDescription.Text);
+                    objController.Event_Update(UserID, Convert.ToInt32(ViewState["EventID"]), txtEventName.Text, ddlMonth.Text + "/" + ddlDay.Text + "/" + ddlYear.Text + " " + ddlHour.Text + ":" + ddlMinute.Text + ":00", txtLocation.Text, txtOrganizerEmail.Text, txtDescription.Text);
             }
             
             Response.Redirect("/");
@@ -94,6 +113,21 @@ namespace eventbrite_regal_day.CreateEvent
             }
             catch (Exception) { throw; }
             return Ret;
+        }
+
+        protected void ddlMonth_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int[] months = new int[] { 31, 28, 31, 30, 31, 30, 31, 30, 30, 31, 30, 31 };
+            if (Convert.ToInt16(ddlYear.SelectedValue) % 4 == 0)
+                months[1] = 29;
+
+            ddlDay.SelectedIndex = -1;
+            ddlDay.Items.Clear();
+
+            for (int i = 1; i <= months[Convert.ToInt16(ddlMonth.SelectedValue) - 1]; i++)
+            {
+                ddlDay.Items.Add(i.ToString());
+            }
         }
     }
 }

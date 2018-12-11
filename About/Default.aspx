@@ -8,19 +8,19 @@
         </div>
         <div class="pics">
             <img src="../img/Willem.png" /><br />
-            Willem
+            agreeable-antelope
         </div>
         <div class="pics">
             <img src="../img/Valentina.jpeg" /><br />
-            Valentina
+            spotless-hare
         </div>
         <div class="pics">
             <img src="../img/Kiki.jpg" /><br />
-            Kiki
+            wrong-turtle
         </div>
         <div class="pics">
             <img src="../img/Tanon.jpg" /><br />
-            Tanon
+            sleepy-mink
         </div>
     </div>
 </asp:Content>

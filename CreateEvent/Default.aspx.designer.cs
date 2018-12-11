@@ -40,67 +40,49 @@ namespace eventbrite_regal_day.CreateEvent {
         protected global::AjaxControlToolkit.ValidatorCalloutExtender vceEventName;
         
         /// <summary>
-        /// txtEventDate control.
+        /// ddlYear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEventDate;
+        protected global::System.Web.UI.WebControls.DropDownList ddlYear;
         
         /// <summary>
-        /// ddlTime control.
+        /// ddlMonth control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlTime;
+        protected global::System.Web.UI.WebControls.DropDownList ddlMonth;
         
         /// <summary>
-        /// ceEventDate control.
+        /// ddlDay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::AjaxControlToolkit.CalendarExtender ceEventDate;
+        protected global::System.Web.UI.WebControls.DropDownList ddlDay;
         
         /// <summary>
-        /// rqEventDate control.
+        /// ddlHour control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rqEventDate;
+        protected global::System.Web.UI.WebControls.DropDownList ddlHour;
         
         /// <summary>
-        /// Validatorcalloutextender1 control.
+        /// ddlMinute control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::AjaxControlToolkit.ValidatorCalloutExtender Validatorcalloutextender1;
-        
-        /// <summary>
-        /// rejexEventDate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator rejexEventDate;
-        
-        /// <summary>
-        /// vcerejexEventDate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::AjaxControlToolkit.ValidatorCalloutExtender vcerejexEventDate;
+        protected global::System.Web.UI.WebControls.DropDownList ddlMinute;
         
         /// <summary>
         /// txtLocation control.
