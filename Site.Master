@@ -88,9 +88,6 @@
                     </li>
                 </ul>
             </div>
-            <div>
-                <h1><asp:Literal ID="litH1" runat="server"></asp:Literal></h1>
-            </div>
         </nav>
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         </asp:ContentPlaceHolder>

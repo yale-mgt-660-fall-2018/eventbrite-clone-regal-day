@@ -25,8 +25,6 @@ namespace eventbrite_regal_day
 
             if (!IsPostBack)
             {
-                ((Literal)Master.FindControl("litH1")).Text = "Your Place to Party On!";
-
                 rptEvents.DataSource = objController.Events_Get(UserID);
                 rptEvents.DataBind();
             }
