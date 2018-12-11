@@ -40,7 +40,7 @@ namespace eventbrite_regal_day.Event
                 if (Request.QueryString["EventID"] != null)
                     EventID = Request.QueryString["EventID"];
 
-                ViewState["EventID"] = Request.QueryString["EventID"];
+                ViewState["EventID"] = EventID;
                 using (SqlDataReader objReader = objController.Event2_Get(UserID, EventID))
                 {
                     if (objReader.Read())
