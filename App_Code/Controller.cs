@@ -15,11 +15,23 @@ namespace eventbrite_regal_day.App_Code
 
             return DataProvider.Instance.Event_Get(UserID, _EventID);
         }
+        public SqlDataReader Event2_Get(SqlGuid UserID, string EventID)
+        {
+            int _EventID = Convert.ToInt32(EventID);
+
+            return DataProvider.Instance.Event2_Get(UserID, _EventID);
+        }
         public void Event_Add(SqlGuid UserID, int EventID, string EventName, string EventDate, string Location, string OrganizerEmail, string Description, byte[] EventImage)
         {
             DateTime _EventDate = Convert.ToDateTime(EventDate);
             
             DataProvider.Instance.Event_Add(UserID, EventID, EventName, _EventDate, Location, OrganizerEmail, Description, EventImage);
+        }
+        public void Donate_Add(DateTime DateDonated, string AmountDonated, string IPAddress, string DonationType)
+        {
+            double _AmountDonated = Convert.ToDouble(AmountDonated == "" ? "0" : AmountDonated);
+
+            DataProvider.Instance.Donate_Add(DateDonated, _AmountDonated, IPAddress, DonationType);
         }
         public void Event_Update(SqlGuid UserID, int EventID, string EventName, string EventDate, string Location, string OrganizerEmail, string Description)
         {

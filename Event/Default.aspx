@@ -71,7 +71,7 @@
                             </dl>
 
                             <div class="alert alert-warning">
-                                Don't want to be a leech? <asp:LinkButton ID="Donate" runat="server" CssClass="alert-link" OnClick="lnkDonate_Click">Donate</asp:LinkButton><br />
+                                Don't want to be a leech? <asp:LinkButton ID="Donate" runat="server" CssClass="alert-link" OnClick="lnkDonate_Click" CausesValidation="false">Donate</asp:LinkButton><br />
                                 Amount ($)<asp:TextBox ID="txtAmount" runat="server" Text="10" CssClass="form-control"></asp:TextBox>
                             </div>
 

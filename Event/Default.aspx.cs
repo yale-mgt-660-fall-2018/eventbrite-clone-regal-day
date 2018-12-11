@@ -28,12 +28,20 @@ namespace eventbrite_regal_day.Event
 
             if (!IsPostBack)
             {
+                var random = new Random();
+                var test = random.Next(0, 2);
+
+                if (test == 0)
+                    Donate.Text = "Donate";
+                else
+                    Donate.Text = "Support";
+
                 string EventID = "1";
                 if (Request.QueryString["EventID"] != null)
                     EventID = Request.QueryString["EventID"];
 
                 ViewState["EventID"] = Request.QueryString["EventID"];
-                using (SqlDataReader objReader = objController.Event_Get(UserID, Request.QueryString["EventID"]))
+                using (SqlDataReader objReader = objController.Event2_Get(UserID, Request.QueryString["EventID"]))
                 {
                     if (objReader.Read())
                     {
@@ -78,7 +86,15 @@ namespace eventbrite_regal_day.Event
 
         protected void lnkDonate_Click(object sender, EventArgs e)
         {
+            objController.Donate_Add(DateTime.Now, txtAmount.Text, Request.UserHostAddress, Donate.Text.Substring(0, 1));
 
+            var random = new Random();
+            var test = random.Next(0, 2);
+
+            if (test == 0)
+                Donate.Text = "Donate";
+            else
+                Donate.Text = "Support";
         }
     }
 }

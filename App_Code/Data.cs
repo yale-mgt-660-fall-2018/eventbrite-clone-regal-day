@@ -52,9 +52,17 @@ namespace eventbrite_regal_day.App_Code
         {
             return SqlHelper.ExecuteReader(ConnectionString, "Event_Get", UserID, EventID);
         }
+        public SqlDataReader Event2_Get(SqlGuid UserID, int EventID)
+        {
+            return SqlHelper.ExecuteReader(ConnectionString, "Event2_Get", UserID, EventID);
+        }
         public void Event_Add(SqlGuid UserID, int EventID, string EventName, DateTime EventDate, string Location, string OrganizerEmail, string Description, byte[] EventImage)
         {
             SqlHelper.ExecuteNonQuery(ConnectionString, "Event_Add", UserID, EventID, EventName, EventDate, Location, OrganizerEmail, Description, EventImage);
+        }
+        public void Donate_Add(DateTime DateDonated, double AmountDonated, string IPAddress, string DonationType)
+        {
+            SqlHelper.ExecuteNonQuery(ConnectionString, "Donations_Add", DateDonated, AmountDonated, IPAddress, DonationType);
         }
         public void Event_Update(SqlGuid UserID, int EventID, string EventName, DateTime EventDate, string Location, string OrganizerEmail, string Description)
         {
